@@ -7,7 +7,6 @@ API which is in the views.py file, per edX coding standards
 from __future__ import absolute_import
 
 import logging
-import os
 import uuid
 from datetime import datetime, timedelta
 
@@ -16,9 +15,9 @@ import six
 from django.conf import settings
 from django.contrib.auth.models import User
 from django.core.mail.message import EmailMessage
+from django.template import loader
 from django.urls import reverse, NoReverseMatch
 from django.utils.translation import ugettext as _, ugettext_noop
-from openedx.core.djangoapps.theming.helpers import get_current_site_theme
 
 from edx_proctoring import constants
 from edx_proctoring.backends import get_backend_provider
@@ -57,59 +56,11 @@ from edx_proctoring.utils import (
 
 log = logging.getLogger(__name__)
 
-SHOW_EXPIRY_MESSAGE_DURATION = 1 * 60  # duration within which expiry message is shown for a timed-out exam
+SHOW_EXPIRY_MESSAGE_DURATION = 5 * 60  # duration within which expiry message is shown for a timed-out exam
 
 APPROVED_STATUS = 'approved'
 
 REJECTED_GRADE_OVERRIDE_EARNED = 0.0
-
-
-class Loader:
-    from django.template import Context as Contxt
-    contxt = Contxt
-
-    def __init__(self, name):
-        from django.template import loader as base_loader
-        self.base_loader = base_loader
-
-        self.name = name
-        self.basedir = settings.COMPREHENSIVE_THEME_DIRS[0]
-        self.theme = settings.DEFAULT_SITE_THEME
-
-        if self.theme:
-            from django.template.loaders.filesystem import ThemedLoader
-            from django.template.engine import Engine as ThemedEngine
-
-            self.theme_dir = os.path.join(self.basedir, self.name, "templates")
-            self.engine = ThemedEngine(dirs=[self.theme_dir])
-            self.themed_loader = ThemedLoader(self.engine)
-
-    def get_template(self, template):
-        themed_template = os.path.join(self.theme_dir, template)
-        if self.theme and os.path.exists(themed_template):
-            return ThemedTemplate(self.themed_loader.get_template(themed_template), self.themed_loader, themed=True)
-        else:
-            return ThemedTemplate(self.base_loader.get_template(template), self.base_loader, themed=False)
-
-    @classmethod
-    def context(cls, _dict):
-        return cls.contxt(_dict)
-
-
-class ThemedTemplate:
-    def __init__(self, template, _loader, themed):
-        self.template = template
-        self.loader = _loader
-        self.themed = themed
-
-    def render(self, context):
-        if self.themed:
-            return self.template.render(Loader.context(context))
-        else:
-            return self.template.render(context)
-
-
-loader = Loader(__name__)
 
 
 def create_exam(course_id, content_id, exam_name, time_limit_mins, due_date=None,
@@ -207,8 +158,7 @@ def update_review_policy(exam_id, set_by_user_id, review_policy):
     """
     log_msg = (
         u'Updating exam review policy with exam_id {exam_id} '
-        u'set_by_user_id={set_by_user_id}, review_policy={review_policy} '
-            .format(
+        u'set_by_user_id={set_by_user_id}, review_policy={review_policy} '.format(
             exam_id=exam_id, set_by_user_id=set_by_user_id, review_policy=review_policy
         )
     )
@@ -235,8 +185,7 @@ def remove_review_policy(exam_id):
     """
 
     log_msg = (
-        u'removing exam review policy with exam_id {exam_id}'
-            .format(exam_id=exam_id)
+        u'removing exam review policy with exam_id {exam_id}'.format(exam_id=exam_id)
     )
     log.info(log_msg)
     exam_review_policy = ProctoredExamReviewPolicy.get_review_policy_for_exam(exam_id)
@@ -1956,10 +1905,7 @@ def _get_proctored_exam_view(exam, context, exam_id, user_id, course_id):
     elif attempt_status == ProctoredExamStudentAttemptStatus.second_review_required:
         # the student should still see a 'submitted'
         # rendering even if the review needs a 2nd review
-        student_view_template = None if _was_review_status_acknowledged(
-            attempt['is_status_acknowledged'],
-            exam['due_date']
-        ) else 'proctored_exam/submitted.html'
+        student_view_template = None if _was_review_status_acknowledged(attempt['is_status_acknowledged'], exam['due_date']) else 'proctored_exam/submitted.html'
     elif attempt_status == ProctoredExamStudentAttemptStatus.verified:
         student_view_template = None if _was_review_status_acknowledged(
             attempt['is_status_acknowledged'],
