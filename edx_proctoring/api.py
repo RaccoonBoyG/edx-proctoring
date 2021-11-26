@@ -6,20 +6,22 @@ API which is in the views.py file, per edX coding standards
 """
 from __future__ import absolute_import
 
-from datetime import datetime, timedelta
 import logging
+import os
 import uuid
+from datetime import datetime, timedelta
+
 import pytz
 import six
-
-from django.utils.translation import ugettext as _, ugettext_noop
 from django.conf import settings
 from django.contrib.auth.models import User
-from django.template import loader
-from django.urls import reverse, NoReverseMatch
 from django.core.mail.message import EmailMessage
+from django.urls import reverse, NoReverseMatch
+from django.utils.translation import ugettext as _, ugettext_noop
+from openedx.core.djangoapps.theming.helpers import get_current_site_theme
 
 from edx_proctoring import constants
+from edx_proctoring.backends import get_backend_provider
 from edx_proctoring.exceptions import (
     ProctoredExamAlreadyExists,
     ProctoredExamNotFoundException,
@@ -39,6 +41,7 @@ from edx_proctoring.models import (
     ProctoredExamReviewPolicy,
     ProctoredExamSoftwareSecureReview,
 )
+from edx_proctoring.runtime import get_runtime_service
 from edx_proctoring.serializers import (
     ProctoredExamSerializer,
     ProctoredExamStudentAttemptSerializer,
@@ -46,15 +49,11 @@ from edx_proctoring.serializers import (
     ProctoredExamReviewPolicySerializer
 )
 from edx_proctoring.statuses import ProctoredExamStudentAttemptStatus
-
 from edx_proctoring.utils import (
     humanized_time,
     emit_event,
     obscured_user_id,
 )
-
-from edx_proctoring.backends import get_backend_provider
-from edx_proctoring.runtime import get_runtime_service
 
 log = logging.getLogger(__name__)
 
@@ -63,6 +62,54 @@ SHOW_EXPIRY_MESSAGE_DURATION = 1 * 60  # duration within which expiry message is
 APPROVED_STATUS = 'approved'
 
 REJECTED_GRADE_OVERRIDE_EARNED = 0.0
+
+
+class Loader:
+    from django.template import Context as Contxt
+    contxt = Contxt
+
+    def __init__(self, name):
+        from django.template import loader as base_loader
+        self.base_loader = base_loader
+
+        self.name = name
+        self.basedir = settings.COMPREHENSIVE_THEME_DIRS[0]
+        self.theme = settings.DEFAULT_SITE_THEME
+
+        if self.theme:
+            from django.template.loaders.filesystem import ThemedLoader
+            from django.template.engine import Engine as ThemedEngine
+
+            self.theme_dir = os.path.join(self.basedir, self.name, "templates")
+            self.engine = ThemedEngine(dirs=[self.theme_dir])
+            self.themed_loader = ThemedLoader(self.engine)
+
+    def get_template(self, template):
+        themed_template = os.path.join(self.theme_dir, template)
+        if self.theme and os.path.exists(themed_template):
+            return ThemedTemplate(self.themed_loader.get_template(themed_template), self.themed_loader, themed=True)
+        else:
+            return ThemedTemplate(self.base_loader.get_template(template), self.base_loader, themed=False)
+
+    @classmethod
+    def context(cls, _dict):
+        return cls.contxt(_dict)
+
+
+class ThemedTemplate:
+    def __init__(self, template, _loader, themed):
+        self.template = template
+        self.loader = _loader
+        self.themed = themed
+
+    def render(self, context):
+        if self.themed:
+            return self.template.render(Loader.context(context))
+        else:
+            return self.template.render(context)
+
+
+loader = Loader(__name__)
 
 
 def create_exam(course_id, content_id, exam_name, time_limit_mins, due_date=None,
@@ -161,7 +208,7 @@ def update_review_policy(exam_id, set_by_user_id, review_policy):
     log_msg = (
         u'Updating exam review policy with exam_id {exam_id} '
         u'set_by_user_id={set_by_user_id}, review_policy={review_policy} '
-        .format(
+            .format(
             exam_id=exam_id, set_by_user_id=set_by_user_id, review_policy=review_policy
         )
     )
@@ -189,7 +236,7 @@ def remove_review_policy(exam_id):
 
     log_msg = (
         u'removing exam review policy with exam_id {exam_id}'
-        .format(exam_id=exam_id)
+            .format(exam_id=exam_id)
     )
     log.info(log_msg)
     exam_review_policy = ProctoredExamReviewPolicy.get_review_policy_for_exam(exam_id)
@@ -418,9 +465,9 @@ def _check_for_attempt_timeout(attempt):
     # right now the only adjustment to
     # status is transitioning to timeout
     has_started_exam = (
-        attempt and
-        attempt.get('started_at') and
-        ProctoredExamStudentAttemptStatus.is_incomplete_status(attempt.get('status'))
+            attempt and
+            attempt.get('started_at') and
+            ProctoredExamStudentAttemptStatus.is_incomplete_status(attempt.get('status'))
     )
     if has_started_exam:
         now_utc = datetime.now(pytz.UTC)
@@ -775,8 +822,8 @@ def update_attempt_status(exam_id, user_id, to_status,
     # In some configuration we may treat timeouts the same
     # as the user saying he/she wises to submit the exam
     treat_timeout_as_submitted = (
-        to_status == ProctoredExamStudentAttemptStatus.timed_out and
-        not settings.PROCTORING_SETTINGS.get('ALLOW_TIMED_OUT_STATE', False)
+            to_status == ProctoredExamStudentAttemptStatus.timed_out and
+            not settings.PROCTORING_SETTINGS.get('ALLOW_TIMED_OUT_STATE', False)
     )
     if treat_timeout_as_submitted:
         to_status = ProctoredExamStudentAttemptStatus.submitted
@@ -831,8 +878,8 @@ def update_attempt_status(exam_id, user_id, to_status,
     # if we have transitioned to started and haven't set our
     # started_at timestamp and calculate allowed minutes, do so now
     add_start_time = (
-        to_status == ProctoredExamStudentAttemptStatus.started and
-        not exam_attempt_obj.started_at
+            to_status == ProctoredExamStudentAttemptStatus.started and
+            not exam_attempt_obj.started_at
     )
     if add_start_time:
         exam_attempt_obj.started_at = datetime.now(pytz.UTC)
@@ -905,8 +952,8 @@ def update_attempt_status(exam_id, user_id, to_status,
             other_exam
             for other_exam in all_other_exams
             if (
-                other_exam.content_id != exam_attempt_obj.proctored_exam.content_id and
-                other_exam.is_proctored and not other_exam.is_practice_exam
+                    other_exam.content_id != exam_attempt_obj.proctored_exam.content_id and
+                    other_exam.is_proctored and not other_exam.is_practice_exam
             )
         ]
 
@@ -1394,7 +1441,7 @@ def _are_prerequirements_satisfied(prerequisites_statuses, evaluate_for_requirem
         # all prequisites are satisfied if there are no failed or pending requirement
         # statuses
         'are_prerequisites_satisifed': (
-            not failed_prerequisites and not pending_prerequisites and not declined_prerequisites
+                not failed_prerequisites and not pending_prerequisites and not declined_prerequisites
         ),
         # note that we reverse the list here, because we assempled it by walking backwards
         'satisfied_prerequisites': list(reversed(satisfied_prerequisites)),
@@ -1476,7 +1523,6 @@ STATUS_SUMMARY_MAP = {
         'in_completed_state': False
     }
 }
-
 
 PRACTICE_STATUS_SUMMARY_MAP = {
     '_default': {
@@ -1586,9 +1632,9 @@ def _does_time_remain(attempt):
     """
     does_time_remain = False
     has_started_exam = (
-        attempt and
-        attempt.get('started_at') and
-        ProctoredExamStudentAttemptStatus.is_incomplete_status(attempt.get('status'))
+            attempt and
+            attempt.get('started_at') and
+            ProctoredExamStudentAttemptStatus.is_incomplete_status(attempt.get('status'))
     )
     if has_started_exam:
         expires_at = attempt['started_at'] + timedelta(minutes=attempt['allowed_time_limit_mins'])
@@ -1805,8 +1851,8 @@ def _get_proctored_exam_view(exam, context, exam_id, user_id, course_id):
 
     # see if only 'verified' track students should see this *except* if it is a practice exam
     check_mode = (
-        settings.PROCTORING_SETTINGS.get('MUST_BE_VERIFIED_TRACK', True) and
-        credit_state
+            settings.PROCTORING_SETTINGS.get('MUST_BE_VERIFIED_TRACK', True) and
+            credit_state
     )
 
     if check_mode:
