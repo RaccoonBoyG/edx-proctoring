@@ -1,25 +1,24 @@
 {% load i18n %}
-<div class="sequence timed-exam entrance" data-exam-id="{{exam_id}}">
+<div class="sequence timed-exam entrance" data-exam-id="{{ exam_id }}">
     <h3>
         {% blocktrans %}
-        {{ exam_name }} с ограничением по времени ({{total_time}})
+            {{ exam_name }} с ограничением по времени ({{ total_time }})
         {% endblocktrans %}
     </h3>
-    <p>Чтобы успешно пройти тестирование, выполните все задания за отведенное время.</p>
-    <p>Задание считается выполненным после нажатия кнопки <strong>«Отправить»</strong>. Если кнопка неактивна, убедитесь, что вы ответили на все вопросы, расположенные выше.</p>
-    <p>После отправки ответа сократится доступное количество попыток
-        и отобразится результат выполнения задания
-        (количество набранных баллов из возможных
-        и сообщение о правильности выполнения с цветовой индикацией).
+    <p>Чтобы успешно пройти тестирование, выполните все задания за&nbsp;отведенное время.</p>
+    <p>Задание считается выполненным после нажатия кнопки <strong>&laquo;Отправить&raquo;</strong>.
+        Если кнопка неактивна, убедитесь, что вы&nbsp;ответили на&nbsp;все вопросы, расположенные выше.</p>
+    <p>После отправки ответа сократится доступное количество попыток и&nbsp;отобразится результат выполнения задания
+        (количество набранных баллов из&nbsp;возможных и&nbsp;сообщение о&nbsp;правильности выполнения с&nbsp;цветовой индикацией).
     </p>
     <p>Успехов!</p>
-    <button class="gated-sequence start-timed-exam action-primary" data-ajax-url="{{enter_exam_endpoint}}" data-exam-id="{{exam_id}}">
+    <button class="gated-sequence start-timed-exam action-primary" data-ajax-url="{{ enter_exam_endpoint }}" data-exam-id="{{ exam_id }}">
         <a>Приступить к выполнению заданий с ограничением времени&nbsp;<span class="icon fa fa-arrow-circle-o-right" aria-hidden="true"></span>
         </a>
     </button>
 </div>
 {% if not hide_extra_time_footer %}
-{% include 'timed_exam/footer.html' %}
+    {% include 'timed_exam/footer.html' %}
 {% endif %}
 
 <script type="text/javascript">
