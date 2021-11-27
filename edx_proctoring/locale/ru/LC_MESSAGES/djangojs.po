@@ -1108,7 +1108,7 @@ msgstr "у вас осталось меньше минуты"
 
 #: views.py:536
 msgid "timed"
-msgstr "приурочен"
+msgstr "ограниченный по времени"
 
 #: views.py:537
 msgid "practice"
