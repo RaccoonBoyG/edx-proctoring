@@ -1108,12 +1108,12 @@ msgstr "у вас осталось меньше минуты"
 
 #: views.py:536
 msgid "timed"
-msgstr "ограниченный по времени"
+msgstr "экзамена с ограничением по времени"
 
 #: views.py:537
 msgid "practice"
-msgstr "пробный"
+msgstr "пробного экзамена"
 
 #: views.py:537
 msgid "proctored"
-msgstr "наблюдаемый"
+msgstr "наблюдаемого экзамена"
