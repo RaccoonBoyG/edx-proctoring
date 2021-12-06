@@ -7,10 +7,11 @@
     <p>
         Для получения зачета по курсу, вы должны пройти контрольное мероприятие с подтверждением личности.
     </p>
-    <button class="gated-sequence start-timed-exam action-primary" data-ajax-url="{{ enter_exam_endpoint }}" data-exam-id="{{ exam_id }}" data-attempt-proctored=true data-start-immediately=false>
+    <button class="gated-sequence start-timed-exam action-primary" data-ajax-url="{{ enter_exam_endpoint }}" data-exam-id="{{ exam_id }}" data-attempt-proctored=true data-start-immediately=false
+            style="border: 1px solid #065683;padding: .5rem 1rem;">
         Продолжить прохождение наблюдаемого экзамена
-        <span class="icon fa fa-arrow-circle-right" aria-hidden="true"></span>
-        <p>
+        <div><span class="icon fa fa-arrow-circle-right" aria-hidden="true"></span></div>
+        <p style="font-weight: 400;font-style: italic;padding-top: .5rem;width: 80%;">
             Вам будут предложены пошаговые инструкции по настройке программного обеспечения для онлайн-контроля и проверки вашей личности.
         </p>
     </button>
