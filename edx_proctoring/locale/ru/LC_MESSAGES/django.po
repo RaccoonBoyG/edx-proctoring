@@ -1122,7 +1122,6 @@ msgid ""
 "If the proctoring software window is still open, close it now and confirm that "
 "you want to quit the application."
 msgstr ""
-"\n"
 "Если окно с программой для наблюдения всё ещё открыто, то теперь вы можете его "
 "закрыть. При закрытии подтвердите, что вы хотите закрыть приложение."
 
