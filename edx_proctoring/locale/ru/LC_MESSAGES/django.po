@@ -1111,20 +1111,6 @@ msgstr ""
 msgid "Your recorded data should now be uploaded for review."
 msgstr "Данные о вашем экзамене загружены для проверки."
 
-#: templates/proctored_exam/submitted.html:11
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "      If the proctoring software window is still open, you can close it now. "
-#| "Confirm that you want to quit the application when you are prompted.\n"
-#| "    "
-msgid ""
-"If the proctoring software window is still open, close it now and confirm that "
-"you want to quit the application."
-msgstr ""
-"Если окно с программой для наблюдения всё ещё открыто, то теперь вы можете его "
-"закрыть. При закрытии подтвердите, что вы хотите закрыть приложение."
-
 #: templates/proctored_exam/submitted.html:13
 #, fuzzy
 #| msgid ""
