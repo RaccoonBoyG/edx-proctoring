@@ -8,7 +8,7 @@
         Для получения зачета по курсу, вы должны пройти контрольное мероприятие с подтверждением личности.
     </p>
     <button class="gated-sequence start-timed-exam action-primary" data-ajax-url="{{ enter_exam_endpoint }}" data-exam-id="{{ exam_id }}" data-attempt-proctored=true data-start-immediately=false
-            style="border: 1px solid #065683;padding: .5rem 1rem;">
+            style="border: 1px solid #065683aa;padding: .5rem 1rem;">
         Продолжить прохождение наблюдаемого экзамена
         <div><span class="icon fa fa-arrow-circle-right" aria-hidden="true"></span></div>
         <p style="font-weight: 400;font-style: italic;padding-top: .5rem;width: 80%;">
@@ -22,3 +22,10 @@
 </div>
 {% include 'proctored_exam/confirm-decline.html' %}
 {% include 'proctored_exam/footer.html' %}
+
+<style>
+    button.start-timed-exam.action-primary:hover {
+        background-color: #06568305;
+        box-shadow: 0px 0px 2px 0px #065683 inset;
+    }
+</style>
