@@ -3,7 +3,7 @@
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2018.
-# 
+#
 # Translators:
 # Isihaka Issa <translations_8@camara.ie>, 2016
 # swaleh amin <mkupuofirstnameswaleh@yahoo.com>, 2016
@@ -11,190 +11,251 @@
 # Anasikia Issa <anasikiaissa@camara.ie>, 2017
 # ramadhani mwaimu <ramadhanimwaimu@camara.ie>, 2017
 # YAHAYA MWAVURIZI <translations_1@camara.ie>, 2017
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
-"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-02-15 17:16-0500\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-06 02:58+0000\n"
 "PO-Revision-Date: 2016-12-20 19:52+0000\n"
 "Last-Translator: YAHAYA MWAVURIZI <translations_1@camara.ie>, 2017\n"
-"Language-Team: Swahili (Kenya) (https://www.transifex.com/open-edx/teams/6205/sw_KE/)\n"
+"Language-Team: Swahili (Kenya) (https://www.transifex.com/open-edx/"
+"teams/6205/sw_KE/)\n"
+"Language: sw_KE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sw_KE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin.py:88
+#: admin.py:87
 msgid "internally reviewed"
 msgstr "yaliyopitiwa ndani"
 
-#: admin.py:97
+#: admin.py:96
 msgid "All Unreviewed"
 msgstr "yote hayajapitiwa"
 
-#: admin.py:98
+#: admin.py:97
 msgid "All Unreviewed Failures"
 msgstr "makosa yote ambayo hayajapitiwa"
 
-#: admin.py:119
+#: admin.py:117
 msgid "active proctored exams"
 msgstr "mitihani hai iliyowekewa ulinzi"
 
-#: admin.py:177
+#: admin.py:175
 msgid "courses with active proctored exams"
 msgstr "kozi yenye mitihani hai yenye ulinzi "
 
-#: admin.py:342
+#: admin.py:334
 msgid "Course Id"
 msgstr "utambulisho wa Kozi"
 
-#: admin.py:380
+#: admin.py:371
 msgid "Created"
 msgstr "imebuniwa"
 
-#: admin.py:381
+#: admin.py:372
 msgid "Download Software Clicked"
 msgstr "pakua  programu uliyobofya"
 
-#: admin.py:382
+#: admin.py:373
 msgid "Ready To Start"
 msgstr "Tayari kuanza"
 
-#: admin.py:383
+#: admin.py:374
 msgid "Started"
 msgstr "Imeanza"
 
-#: admin.py:384
+#: admin.py:375
 msgid "Ready To Submit"
 msgstr "Tayari kwa kuwasilihwa"
 
-#: admin.py:385
+#: admin.py:376
 msgid "Declined"
 msgstr "Imekataliwa"
 
-#: admin.py:386
+#: admin.py:377
 msgid "Timed Out"
 msgstr "nje ya muda"
 
-#: admin.py:387
+#: admin.py:378
 msgid "Submitted"
 msgstr "Fikishwa"
 
-#: admin.py:388
+#: admin.py:379
 msgid "Second Review Required"
 msgstr "Yanahitajika mapitio ya mara ya pili"
 
-#: admin.py:389
+#: admin.py:380
 msgid "Verified"
 msgstr "Thibitishwa"
 
-#: admin.py:390
+#: admin.py:381
 msgid "Rejected"
 msgstr "Imekataliwa"
 
-#: admin.py:391
+#: admin.py:382
 msgid "Error"
 msgstr "Hitlafu"
 
-#: api.py:902
+#: api.py:1005
 msgid "your course"
 msgstr "kozi yako"
 
-#: api.py:962
-#, python-brace-format
-msgid "Proctoring Session Results Update for {course_name} {exam_name}"
+#: api.py:1059
+#, fuzzy, python-brace-format
+#| msgid "Proctoring Session Results Update for {course_name} {exam_name}"
+msgid "Proctoring Results For {course_name} {exam_name}"
 msgstr "Usimamizi wa kipindi cha otoaji matokeo kwa {course_name} {exam_name}"
 
-#: api.py:1284
+#: api.py:1068
+#, fuzzy, python-brace-format
+#| msgid "Proctoring Session Results Update for {course_name} {exam_name}"
+msgid "Proctoring Review In Progress For {course_name} {exam_name}"
+msgstr "Usimamizi wa kipindi cha otoaji matokeo kwa {course_name} {exam_name}"
+
+#: api.py:1093
+#, python-brace-format
+msgid "Proctored exam {exam_name} in {course_name} for user {username}"
+msgstr ""
+
+#: api.py:1430
 msgid "Taking As Proctored Exam"
 msgstr "Kuchukua kama mtihani uliosimamiwa"
 
-#: api.py:1289
+#: api.py:1435
 msgid "Proctored Option Available"
 msgstr "Chaguzi ya usimamizi inapatikana"
 
-#: api.py:1294
+#: api.py:1440
 msgid "Taking As Open Exam"
 msgstr "Kufanya kama mtihani huru"
 
-#: api.py:1299 api.py:1304
+#: api.py:1445 api.py:1450
 msgid "Pending Session Review"
 msgstr " Kipindi kinayosubiriwa kupitiwa "
 
-#: api.py:1309
+#: api.py:1455
 msgid "Passed Proctoring"
 msgstr "Imepitishwa usimamizi"
 
-#: api.py:1314 api.py:1319
+#: api.py:1460 api.py:1465
 msgid "Failed Proctoring"
 msgstr "imeshindwa uwangalizi"
 
-#: api.py:1324
+#: api.py:1470
 msgid "Proctored Option No Longer Available"
 msgstr "angalizo la chaguo Hairuhusu kupatikana "
 
-#: api.py:1333
+#: api.py:1478
 msgid "Ungraded Practice Exam"
 msgstr "mtihani wa majaribio ambao haujawekewa daraja"
 
-#: api.py:1338
+#: api.py:1483
 msgid "Practice Exam Completed"
 msgstr "Mtihani wa majaribio umekamilika"
 
-#: api.py:1343
+#: api.py:1488
 msgid "Practice Exam Failed"
 msgstr "mtihani wa majaribio ulioshindwa"
 
-#: api.py:1351
+#: api.py:1496
 msgid "Timed Exam"
 msgstr "Mtihani Uliopewa Muda Maalum"
 
-#: models.py:181
-msgid "pending"
-msgstr "Inayosubiria"
-
-#: models.py:182
-msgid "satisfactory"
-msgstr "Inaridhisha"
-
-#: models.py:183
-msgid "unsatisfactory"
-msgstr "Hairidhishi "
-
-#: models.py:481
+#: models.py:312
 msgid "Taking as Proctored"
 msgstr "Kufanya mtihani kwa usimamizi"
 
-#: models.py:485
+#: models.py:316
 msgid "Is Sample Attempt"
 msgstr "Ni mfano wa jaribio"
 
-#: models.py:700
+#: models.py:482
 msgid "Additional Time (minutes)"
 msgstr "Ongezeko la muda (dakika)"
 
-#: models.py:701
+#: models.py:483
 msgid "Review Policy Exception"
 msgstr "Kupitia tena Sera zilizobaguliwa"
 
-#: templates/emails/proctoring_attempt_status_email.html:3
+#: templates/emails/proctoring_attempt_satisfactory_email.html:4
+#: templates/emails/proctoring_attempt_submitted_email.html:4
+#: templates/emails/proctoring_attempt_unsatisfactory_email.html:4
 #, python-format
 msgid ""
 "\n"
-"\n"
-"This email is to let you know that the status of your proctoring session review for %(exam_name)s in\n"
-"<a href=\"%(course_url)s\">%(course_name)s </a> is %(status)s. If you have any questions about proctoring,\n"
-"contact %(platform)s support at %(contact_email)s.\n"
-"\n"
+"        Hi %(username)s,\n"
+"    "
 msgstr ""
+
+#: templates/emails/proctoring_attempt_satisfactory_email.html:9
+#, python-format
+msgid ""
 "\n"
+"        Your proctored exam \"%(exam_name)s\" in\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was reviewed and you\n"
+"        met all exam requirements.\n"
+"    "
+msgstr ""
+
+#: templates/emails/proctoring_attempt_satisfactory_email.html:16
+#: templates/emails/proctoring_attempt_unsatisfactory_email.html:20
+#, python-format
+msgid ""
 "\n"
-"Dhamira ya ujumbe huu ni kukufahamisha hali halisi ya usimamiwaji wa mtihani wako wa %(exam_name)s kwenye\n"
-"<a href=\"%(course_url)s\">%(course_name)s </a> is %(status)s. Kama una maswali yoyote kuhusu usimamizi wa mtihani, wasiliana na,\n"
-"%(platform)sna kwa msaada kwenye %(contact_email)s.\n"
+"        If you have any questions about your results, contact %(platform)s\n"
+"        support at\n"
+"        <a href=\"mailto:%(contact_email)s?Subject=%(support_email_subject)s"
+"\">\n"
+"            %(contact_email)s\n"
+"        </a>.\n"
+"    "
+msgstr ""
+
+#: templates/emails/proctoring_attempt_submitted_email.html:9
+#, python-format
+msgid ""
 "\n"
+"        Your proctored exam \"%(exam_name)s\" in\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was submitted\n"
+"        successfully and will now be reviewed to ensure all proctoring exam\n"
+"        rules were followed. You should receive an email with your updated "
+"exam\n"
+"        status within 5 business days.\n"
+"    "
+msgstr ""
+
+#: templates/emails/proctoring_attempt_submitted_email.html:18
+#, python-format
+msgid ""
+"\n"
+"        If you have any questions about proctoring, contact %(platform)s\n"
+"        support at\n"
+"        <a href=\"mailto:%(contact_email)s?Subject=%(support_email_subject)s"
+"\">\n"
+"            %(contact_email)s\n"
+"        </a>.\n"
+"    "
+msgstr ""
+
+#: templates/emails/proctoring_attempt_unsatisfactory_email.html:9
+#, python-format
+msgid ""
+"\n"
+"        Your proctored exam \"%(exam_name)s\" in\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was reviewed and the\n"
+"        team found one or more violations of the proctored exam rules. "
+"Examples\n"
+"        of behaviors that may result in a rules violation include browsing\n"
+"        the internet, using a phone, or getting help from another person. As "
+"a\n"
+"        result of the violation(s), you did not successfully meet the "
+"proctored\n"
+"        exam requirements.\n"
+"    "
+msgstr ""
 
 #: templates/practice_exam/entrance.html:4
 msgid ""
@@ -209,12 +270,15 @@ msgstr ""
 #: templates/practice_exam/entrance.html:9
 msgid ""
 "\n"
-"      Get familiar with proctoring for real exams later in the course. This practice exam has no impact\n"
+"      Get familiar with proctoring for real exams later in the course. This "
+"practice exam has no impact\n"
 "      on your grade in the course.\n"
 "    "
 msgstr ""
 "\n"
-"      Fanya majaribio ya mtihani wa kusimamiwa ili upate uzoefu wa kufanya mitihani halisi baadae kwenye kozi. Mtihani huu wa majaribio hautaathiri daraja lako kwenye kozi hii.\n"
+"      Fanya majaribio ya mtihani wa kusimamiwa ili upate uzoefu wa kufanya "
+"mitihani halisi baadae kwenye kozi. Mtihani huu wa majaribio hautaathiri "
+"daraja lako kwenye kozi hii.\n"
 "    "
 
 #: templates/practice_exam/entrance.html:15
@@ -224,7 +288,8 @@ msgstr "Nenda kwenye mtihani wangu wa majaribio"
 #: templates/practice_exam/entrance.html:18
 msgid ""
 "\n"
-"        You will be guided through steps to set up online proctoring software and to perform various checks.\n"
+"        You will be guided through steps to set up online proctoring "
+"software and verify your identity.\n"
 "      "
 msgstr ""
 
@@ -241,23 +306,29 @@ msgstr ""
 #: templates/practice_exam/error.html:10
 msgid ""
 "\n"
-"      Your practice proctoring results: <b class=\"failure\"> Unsatisfactory </b>\n"
+"      Your practice proctoring results: <b class=\"failure\"> Unsatisfactory "
+"</b>\n"
 "    "
 msgstr ""
 "\n"
-"      Matokeo ya mtihani wako wa majaribio: <b class=\"failure\"> Hayaridhishi </b>\n"
+"      Matokeo ya mtihani wako wa majaribio: <b class=\"failure\"> "
+"Hayaridhishi </b>\n"
 "    "
 
 #: templates/practice_exam/error.html:16
 msgid ""
 "\n"
-"      Your proctoring session ended before you completed this practice exam.\n"
-"      You can retry this practice exam if you had problems setting up the online proctoring software.\n"
+"      Your proctoring session ended before you completed this practice "
+"exam.\n"
+"      You can retry this practice exam if you had problems setting up the "
+"online proctoring software.\n"
 "    "
 msgstr ""
 "\n"
-"      Muda wako wa kufanya mtihani wa majaribio umeisha kabla ya kumaliza kufanya mtihani huu.\n"
-"      Unaweza kufanya upya mtihani huu wa majaribio kama ulipata tatizo kuweka programu ya usimamizi wa mtihani mtandaoni.\n"
+"      Muda wako wa kufanya mtihani wa majaribio umeisha kabla ya kumaliza "
+"kufanya mtihani huu.\n"
+"      Unaweza kufanya upya mtihani huu wa majaribio kama ulipata tatizo "
+"kuweka programu ya usimamizi wa mtihani mtandaoni.\n"
 "    "
 
 #: templates/practice_exam/error.html:25
@@ -275,15 +346,26 @@ msgstr ""
 "    "
 
 #: templates/practice_exam/submitted.html:10
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Practice exams do not affect your grade or your credit "
+#| "eligibility.\n"
+#| "      You have completed this practice exam and can continue with your "
+#| "course work.\n"
+#| "    "
 msgid ""
 "\n"
-"      Practice exams do not affect your grade or your credit eligibility.\n"
-"      You have completed this practice exam and can continue with your course work.\n"
+"      Practice exams do not affect your grade.\n"
+"      You have completed this practice exam and can continue with your "
+"course work.\n"
 "    "
 msgstr ""
 "\n"
-"      Mitihani ya majaribio haiathiri daraja lako la mtihani au nafasi yako ya usomaji  kozi.\n"
-"      Unaweza kukamilisha kufanya mtihani huu wa majaribio na kisha kuendelea na usomaji wako wa kozi.\n"
+"      Mitihani ya majaribio haiathiri daraja lako la mtihani au nafasi yako "
+"ya usomaji  kozi.\n"
+"      Unaweza kukamilisha kufanya mtihani huu wa majaribio na kisha "
+"kuendelea na usomaji wako wa kozi.\n"
 "    "
 
 #: templates/practice_exam/submitted.html:18
@@ -301,13 +383,22 @@ msgstr ""
 "      "
 
 #: templates/proctored_exam/confirm-decline.html:10
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        If you take this exam without proctoring, you will <strong> no "
+#| "longer be eligible for academic credit. </strong>\n"
+#| "      "
 msgid ""
 "\n"
-"        If you take this exam without proctoring, you will <strong> no longer be eligible for academic credit. </strong>\n"
+"        If you take this exam without proctoring, you will not be eligible "
+"for course credit or the MicroMasters credential if either applies to this "
+"course.\n"
 "      "
 msgstr ""
 "\n"
-"        Kama unafanya mtihani huu bila ya usimamizi, hutastahiki tena <strong> kupata ruhusa ya kusoma. </strong>\n"
+"        Kama unafanya mtihani huu bila ya usimamizi, hutastahiki tena "
+"<strong> kupata ruhusa ya kusoma. </strong>\n"
 "      "
 
 #: templates/proctored_exam/confirm-decline.html:16
@@ -317,39 +408,6 @@ msgstr "Endelea na Mtihani Bila Kusimamiwa"
 #: templates/proctored_exam/confirm-decline.html:19
 msgid "Go Back"
 msgstr "Rudi Nyuma"
-
-#: templates/proctored_exam/entrance.html:4
-#: templates/proctored_exam/failed-prerequisites.html:4
-#: templates/proctored_exam/pending-prerequisites.html:4
-msgid ""
-"\n"
-"      This exam is proctored\n"
-"    "
-msgstr ""
-"\n"
-"      Mtihani huu unasimamiwa\n"
-"    "
-
-#: templates/proctored_exam/entrance.html:9
-msgid ""
-"\n"
-"      To be eligible for course credit or for a MicroMasters credential, you must pass the proctoring review for this exam.\n"
-"    "
-msgstr ""
-"\n"
-"      Ili uweze kustahiki kusoma kozi au kupata cheti cha MicroMasters , ni lazima ufaulu majaribio ya mtihani huu.\n"
-"    "
-
-#: templates/proctored_exam/entrance.html:14
-msgid "Continue to my proctored exam. I want to be eligible for credit."
-msgstr "Endelea na mtihani wangu wa kusimamiwa. Nataka kustahiki kusoma kozi."
-
-#: templates/proctored_exam/entrance.html:17
-msgid ""
-"\n"
-"        You will be guided through steps to set up online proctoring software and to perform various checks.</br>\n"
-"      "
-msgstr ""
 
 #: templates/proctored_exam/error.html:4
 msgid ""
@@ -365,42 +423,36 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"      A technical error has occurred with your proctored exam. To resolve this problem, contact\n"
-"      <a href=\"mailto:%(tech_support_email)s\">technical support</a>. All exam data, including answers\n"
-"      for completed problems, has been lost. When the problem is resolved you will need to restart\n"
-"      the exam and complete all problems again.\n"
+"      A technical error has occurred with your proctored exam. All\n"
+"      exam data, including completed answers, has been lost. To\n"
+"      resolve this error, please\n"
+"      contact <a href=\"mailto:%(tech_support_email)s\">technical\n"
+"      support</a>.\n"
 "    "
 msgstr ""
-"\n"
-"      Kosa la kiufundi limetokea kwenye mtihani wako. Kuondoa tatizo hili, wasiliana na\n"
-"      <a href=\"mailto:%(tech_support_email)s\">msaada wa kiufundi</a>. Taarifa zote za mtihani, yakiwemo majibu ya maswali yaliyofanywa, zimepotea. Tatizo likisharekebishwa utalazimika kuanza upya kufanya mtihani na ukamilishe tena maswali yote.\n"
-"    "
 
 #: templates/proctored_exam/error.html:19
-#: templates/proctored_exam/expired.html:15
-#: templates/proctored_exam/rejected.html:19
-#: templates/proctored_exam/submitted.html:29
-#: templates/proctored_exam/verified.html:18
-#, python-format
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      If you have concerns about your proctoring session results, contact "
+#| "your course team.\n"
+#| "    "
 msgid ""
 "\n"
-"      View your credit eligibility status on your <a href=\"%(progress_page_url)s\">Progress</a> page.\n"
+"      Once the error is resolved, you will need to restart the exam\n"
+"      and answer all questions again. If you have concerns about your\n"
+"      proctoring session results, please contact your course team.\n"
 "    "
 msgstr ""
 "\n"
-"      Angalia hapa hali ya kustahiki kwako kusoma kozi <a href=\"%(progress_page_url)s\">Maendeleo</a> ukurasa.\n"
+"      Kama una jambo lolote kuhusu matokeo ya mtihani uliofanya, wasiliana "
+"na wakufunzi wako wa kozi.\n"
 "    "
 
-#: templates/proctored_exam/error.html:26
-#: templates/proctored_exam/rejected.html:26
-msgid ""
-"\n"
-"      If you have concerns about your proctoring session results, contact your course team.\n"
-"    "
-msgstr ""
-"\n"
-"      Kama una jambo lolote kuhusu matokeo ya mtihani uliofanya, wasiliana na wakufunzi wako wa kozi.\n"
-"    "
+#: templates/proctored_exam/error_modal.html:7
+msgid "Close"
+msgstr "Funga"
 
 #: templates/proctored_exam/expired.html:4 templates/timed_exam/expired.html:4
 msgid ""
@@ -415,23 +467,42 @@ msgstr ""
 #: templates/proctored_exam/expired.html:9 templates/timed_exam/expired.html:9
 msgid ""
 "\n"
-"      Because the due date has passed, you are no longer able to take this exam.\n"
+"      Because the due date has passed, you are no longer able to take this "
+"exam.\n"
 "    "
 msgstr ""
 "\n"
 "      Kwasababu tarehe ya mwisho imepita, huwezi tena kufanya mtihani huu.\n"
 "    "
 
-#: templates/proctored_exam/failed-prerequisites.html:9
-#, python-format
+#: templates/proctored_exam/failed-prerequisites.html:4
+#: templates/proctored_exam/pending-prerequisites.html:4
 msgid ""
 "\n"
-"    You did not satisfy the requirements for taking this exam with proctoring, and are not eligible for credit. See your <a href=\"%(progress_page_url)s\">Progress</a> page for a list of requirements and your status for each.\n"
+"      This exam is proctored\n"
 "    "
 msgstr ""
 "\n"
-"    Hukukidhi masharti ya kufanya mtihani huu, na hivyo huwezi kusoma kozi not . Angalia kwenye ukurasa <a href=\"%(progress_page_url)s\">Maendeleo</a> kuona orodha ya masharti na hali yako halisi kwa kila kipengele.\n"
+"      Mtihani huu unasimamiwa\n"
 "    "
+
+#: templates/proctored_exam/failed-prerequisites.html:9
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        Due to unsatisfied prerequisites, you can only take this exam "
+#| "without proctoring.\n"
+#| "      "
+msgid ""
+"\n"
+"    You did not satisfy the requirements for taking this exam with "
+"proctoring.\n"
+"    "
+msgstr ""
+"\n"
+"        Kwasababu hukukidhi masharti, unaweza kufanya mtihani huu bila ya "
+"usimamizi.\n"
+"      "
 
 #: templates/proctored_exam/failed-prerequisites.html:14
 msgid ""
@@ -446,22 +517,31 @@ msgstr ""
 #: templates/proctored_exam/failed-prerequisites.html:32
 msgid ""
 "\n"
-"        Due to unsatisfied prerequisites, you can only take this exam without proctoring.\n"
+"        Due to unsatisfied prerequisites, you can only take this exam "
+"without proctoring.\n"
 "      "
 msgstr ""
 "\n"
-"        Kwasababu hukukidhi masharti, unaweza kufanya mtihani huu bila ya usimamizi.\n"
+"        Kwasababu hukukidhi masharti, unaweza kufanya mtihani huu bila ya "
+"usimamizi.\n"
 "      "
 
 #: templates/proctored_exam/failed-prerequisites.html:40
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "      If you have questions about the status of your requirements for "
+#| "course credit, contact %(platform_name)s Support.\n"
+#| "    "
 msgid ""
 "\n"
-"      If you have questions about the status of your requirements for course credit, contact %(platform_name)s Support.\n"
+"      If you have questions about the status of your requirements, contact "
+"%(platform_name)s Support.\n"
 "    "
 msgstr ""
 "\n"
-"      Kama una maswali kuhusu hali ya kukidhi masharti ya kusoma kozi, wasiliana na %(platform_name)s Msaada.\n"
+"      Kama una maswali kuhusu hali ya kukidhi masharti ya kusoma kozi, "
+"wasiliana na %(platform_name)s Msaada.\n"
 "    "
 
 #: templates/proctored_exam/footer.html:5
@@ -477,7 +557,8 @@ msgstr ""
 #: templates/proctored_exam/id_verification.html:6
 msgid ""
 "\n"
-"                Complete your verification before starting the proctored exam.\n"
+"                Complete your verification before starting the proctored "
+"exam.\n"
 "            "
 msgstr ""
 "\n"
@@ -487,34 +568,41 @@ msgstr ""
 #: templates/proctored_exam/id_verification.html:11
 msgid ""
 "\n"
-"                You must successfully complete identity verification before you can start the proctored exam.\n"
+"                You must successfully complete identity verification before "
+"you can start the proctored exam.\n"
 "            "
 msgstr ""
 "\n"
-"                Lazima ukamilishe kwa usahihi uhakiki wa kitambulisho kabla ya kuanza kufanya mtihani.\n"
+"                Lazima ukamilishe kwa usahihi uhakiki wa kitambulisho kabla "
+"ya kuanza kufanya mtihani.\n"
 "            "
 
 #: templates/proctored_exam/id_verification.html:17
 msgid ""
 "\n"
-"                    Your verification is pending. Results should be available 2-3 days after you\n"
+"                    Your verification is pending. Results should be "
+"available 2-3 days after you\n"
 "                    submit your verification.\n"
 "                "
 msgstr ""
 "\n"
-"                    Uhakiki wako unasubiri kushughulikiwa. Majibu yatatolewa siku 2-3 baada ya kuwasilisha uhakiki wako.\n"
+"                    Uhakiki wako unasubiri kushughulikiwa. Majibu yatatolewa "
+"siku 2-3 baada ya kuwasilisha uhakiki wako.\n"
 "                "
 
 #: templates/proctored_exam/id_verification.html:24
 msgid ""
 "\n"
-"                    Your verification attempt failed. Please read our guidelines to make\n"
-"                    sure you understand the requirements for successfully completing verification,\n"
+"                    Your verification attempt failed. Please read our "
+"guidelines to make\n"
+"                    sure you understand the requirements for successfully "
+"completing verification,\n"
 "                    then try again.\n"
 "                "
 msgstr ""
 "\n"
-"                    Jaribio lako la kufanya uhakiki halikufanikiwa. Tafdhali soma maelekezo yetu uweze kufahamu kukamilisha uhakiki kwa usahihi,\n"
+"                    Jaribio lako la kufanya uhakiki halikufanikiwa. Tafdhali "
+"soma maelekezo yetu uweze kufahamu kukamilisha uhakiki kwa usahihi,\n"
 "                    kisha jaribu tena.\n"
 "                "
 
@@ -525,12 +613,14 @@ msgstr "'Hakiki' upya"
 #: templates/proctored_exam/id_verification.html:37
 msgid ""
 "\n"
-"                    Your verification has expired. You must successfully complete a new identity verification\n"
+"                    Your verification has expired. You must successfully "
+"complete a new identity verification\n"
 "                    before you can start the proctored exam.\n"
 "                "
 msgstr ""
 "\n"
-"                    Uhakiki wako umepitwa na wakti. Lazima ukamilishe kwa usahihi uhakiki wa utambulisho mpya kabla ya kuanza kufanya mtihani.\n"
+"                    Uhakiki wako umepitwa na wakti. Lazima ukamilishe kwa "
+"usahihi uhakiki wa utambulisho mpya kabla ya kuanza kufanya mtihani.\n"
 "                "
 
 #: templates/proctored_exam/id_verification.html:44
@@ -541,143 +631,198 @@ msgstr "Endelea kwenye Uhakiki"
 #: templates/proctored_exam/id_verification.html:49
 msgid ""
 "\n"
-"                    Make sure you are on a computer with a webcam, and that you have valid photo identification\n"
-"                    such as a driver's license or passport, before you continue.\n"
+"                    Make sure you are on a computer with a webcam, and that "
+"you have valid photo identification\n"
+"                    such as a driver's license or passport, before you "
+"continue.\n"
 "                "
 msgstr ""
 "\n"
-"                    Hakikisha unatumia kompyuta yenye kamera ya wavuti, na pia una kitambusho halali chenye picha kama vile leseni ya udereva au pasipoti kabla ya kuendelea.\n"
+"                    Hakikisha unatumia kompyuta yenye kamera ya wavuti, na "
+"pia una kitambusho halali chenye picha kama vile leseni ya udereva au "
+"pasipoti kabla ya kuendelea.\n"
 "                "
 
-#: templates/proctored_exam/instructions.html:6
+#: templates/proctored_exam/instructions.html:17
+#, python-format
 msgid ""
 "\n"
-"      Follow these steps to set up and start your proctored exam.\n"
-"    "
+"            If you have issues relating to proctoring, you can contact "
+"%(provider_name)s technical support by emailing "
+"%(provider_tech_support_email)s  or by calling "
+"%(provider_tech_support_phone)s.\n"
+"            "
+msgstr ""
+
+#: templates/proctored_exam/instructions.html:22
+#: templates/proctored_exam/instructions.html:42
+msgid "Start System Check"
+msgstr "Anza Mfumo wa Kukagua"
+
+#: templates/proctored_exam/instructions.html:25
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        1. Copy this unique exam code. You will be prompted to paste this "
+#| "code later before you start the exam.\n"
+#| "      "
+msgid ""
+"\n"
+"            1. Copy this unique exam code. You will be prompted to paste "
+"this code later before you start the exam.\n"
+"            "
 msgstr ""
 "\n"
-"      Fuata hatua hizi kufanya maandalizi na anza kufanya mtihani wako.\n"
-"    "
+"        1. Nakili kificho hiki maalum cha mtihani. Utahitajika kubandika "
+"kificho hiki kabla ya kuanza kufanya mtihani.\n"
+"      "
 
-#: templates/proctored_exam/instructions.html:11
+#: templates/proctored_exam/instructions.html:33
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        Select the exam code, then copy it using Command+C (Mac) or "
+#| "Control+C (Windows).\n"
+#| "      "
 msgid ""
 "\n"
-"        1. Copy this unique exam code. You will be prompted to paste this code later before you start the exam.\n"
-"      "
+"            Select the exam code, then copy it using Command+C (Mac) or "
+"Control+C (Windows).\n"
+"            "
 msgstr ""
 "\n"
-"        1. Nakili kificho hiki maalum cha mtihani. Utahitajika kubandika kificho hiki kabla ya kuanza kufanya mtihani.\n"
+"        Chagua kificho cha mtihani, kisha kinakili kwa mfumo huu Command+C "
+"(Mac) or Control+C (Windows).\n"
 "      "
 
-#: templates/proctored_exam/instructions.html:19
+#: templates/proctored_exam/instructions.html:38
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        2. Follow the link below to set up proctoring.\n"
+#| "      "
 msgid ""
 "\n"
-"        Select the exam code, then copy it using Command+C (Mac) or Control+C (Windows).\n"
-"      "
-msgstr ""
-"\n"
-"        Chagua kificho cha mtihani, kisha kinakili kwa mfumo huu Command+C (Mac) or Control+C (Windows).\n"
-"      "
-
-#: templates/proctored_exam/instructions.html:24
-msgid ""
-"\n"
-"        2. Follow the link below to set up proctoring.\n"
-"      "
+"            2. Click the button below to set up proctoring.\n"
+"            "
 msgstr ""
 "\n"
 "        2. Fuata kiungo-wavuti kuandaa usimamizi wa mtihani.\n"
 "      "
 
-#: templates/proctored_exam/instructions.html:29
-msgid "Start System Check"
-msgstr "Anza Mfumo wa Kukagua"
-
-#: templates/proctored_exam/instructions.html:32
-msgid ""
-"\n"
-"        A new window will open. You will run a system check before downloading the proctoring application.\n"
-"      "
-msgstr ""
-"\n"
-"        Dirisha jipya litafunguka. Utafungua mfumo wa ukaguaji kabla ya kupakua programu ya usimamiaji mtihani.\n"
-"      "
-
-#: templates/proctored_exam/instructions.html:37
-msgid ""
-"\n"
-"        You will be asked to verify your identity as part of the proctoring exam set up.\n"
-"        Make sure you are on a computer with a webcam, and that you have valid photo identification\n"
-"        such as a driver's license or passport, before you continue.\n"
-"      "
-msgstr ""
-"\n"
-"        Utahitajika kuhakiki utambulisho wako kama sehemu ya kujiandaa kufanya mtihani.\n"
-"        Hakikisha unatumia kompyuta yenye kamera ya wavuti, na una kitambusho halali chenye picha kama vile leseni ya udereva au pasipoti, kabla ya kuendelea..\n"
-"      "
-
 #: templates/proctored_exam/instructions.html:44
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        A new window will open. You will run a system check before "
+#| "downloading the proctoring application.\n"
+#| "      "
 msgid ""
 "\n"
-"          3. When you have finished setting up proctoring, start the exam.\n"
-"        "
+"            A new window will open. You will run a system check before "
+"downloading the proctoring application.\n"
+"            "
+msgstr ""
+"\n"
+"        Dirisha jipya litafunguka. Utafungua mfumo wa ukaguaji kabla ya "
+"kupakua programu ya usimamiaji mtihani.\n"
+"      "
+
+#: templates/proctored_exam/instructions.html:49
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        You will be asked to verify your identity as part of the "
+#| "proctoring exam set up.\n"
+#| "        Make sure you are on a computer with a webcam, and that you have "
+#| "valid photo identification\n"
+#| "        such as a driver's license or passport, before you continue.\n"
+#| "      "
+msgid ""
+"\n"
+"            You will be asked to verify your identity as part of the "
+"proctoring exam set up.\n"
+"            Make sure you are on a computer with a webcam, and that you have "
+"valid photo identification\n"
+"            such as a driver's license or passport, before you continue.\n"
+"            "
+msgstr ""
+"\n"
+"        Utahitajika kuhakiki utambulisho wako kama sehemu ya kujiandaa "
+"kufanya mtihani.\n"
+"        Hakikisha unatumia kompyuta yenye kamera ya wavuti, na una "
+"kitambusho halali chenye picha kama vile leseni ya udereva au pasipoti, "
+"kabla ya kuendelea..\n"
+"      "
+
+#: templates/proctored_exam/instructions.html:56
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "          3. When you have finished setting up proctoring, start the "
+#| "exam.\n"
+#| "        "
+msgid ""
+"\n"
+"            3. When you have finished setting up proctoring, start the "
+"exam.\n"
+"            "
 msgstr ""
 "\n"
 "          3. Ukimaliza kufanya maandalizi, anza kufanya mtihani.\n"
 "        "
 
-#: templates/proctored_exam/instructions.html:50
+#: templates/proctored_exam/instructions.html:62
 msgid "Start Proctored Exam"
 msgstr "Anza Kufanya Mtihani"
 
-#: templates/proctored_exam/instructions.html:60
-msgid "Close"
-msgstr "Funga"
-
-#: templates/proctored_exam/instructions.html:65
-msgid "Cannot Start Proctored Exam"
-msgstr "Huwezi Kuanza Mtihani "
-
-#: templates/proctored_exam/instructions.html:85
+#: templates/proctored_exam/instructions.html:73
 #: templates/proctored_exam/proctoring_opt_out_button.html:5
 msgid "Take this exam without proctoring."
 msgstr "Fanya mtihani bila usimamizi."
 
-#: templates/proctored_exam/instructions.html:87
-msgid "Doing so means that you are no longer eligible for academic credit."
-msgstr "Kwa kufanya hivo inamaanisha kuwa hustahiki tena kusoma kozi."
-
 #: templates/proctored_exam/pending-prerequisites.html:9
-#, python-format
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "    You have not completed the prerequisites for this exam. All "
+#| "requirements must be satisfied before you can take this proctored exam "
+#| "and be eligible for credit. See your <a href=\"%(progress_page_url)s"
+#| "\">Progress</a> page for a list of requirements in the order that they "
+#| "must be completed.\n"
+#| "    "
 msgid ""
 "\n"
-"    You have not completed the prerequisites for this exam. All requirements must be satisfied before you can take this proctored exam and be eligible for credit. See your <a href=\"%(progress_page_url)s\">Progress</a> page for a list of requirements in the order that they must be completed.\n"
+"    You have not completed the prerequisites for this exam. All requirements "
+"must be satisfied before you can take this proctored exam.\n"
 "    "
 msgstr ""
 "\n"
-"    Hujakamilisha masharti ya kufanya mtihani huu. Masharti yote lazima yakamilishwe kabla kuanza kufanya mtiahni huu na kustahiki kusoma kozi. Angalia kwenye ukurasa wa <a href=\"%(progress_page_url)s\">Maendeleo</a> kuona orodha ya masharti yanayotakiwa kukamilishwa.\n"
+"    Hujakamilisha masharti ya kufanya mtihani huu. Masharti yote lazima "
+"yakamilishwe kabla kuanza kufanya mtiahni huu na kustahiki kusoma kozi. "
+"Angalia kwenye ukurasa wa <a href=\"%(progress_page_url)s\">Maendeleo</a> "
+"kuona orodha ya masharti yanayotakiwa kukamilishwa.\n"
 "    "
 
 #: templates/proctored_exam/pending-prerequisites.html:14
 msgid ""
 "\n"
-"    The following prerequisites are in a <strong>pending</strong> state and must be successfully completed before you can proceed:\n"
+"    The following prerequisites are in a <strong>pending</strong> state and "
+"must be successfully completed before you can proceed:\n"
 "    "
 msgstr ""
 "\n"
-"    Masharti yafuatayo <strong>hayajashughulikiwa</strong> na yanahitaji kukamilishwa kwa usahihi kabla ya kuendelea:\n"
+"    Masharti yafuatayo <strong>hayajashughulikiwa</strong> na yanahitaji "
+"kukamilishwa kwa usahihi kabla ya kuendelea:\n"
 "    "
 
 #: templates/proctored_exam/pending-prerequisites.html:30
-#, python-format
 msgid ""
 "\n"
-"    You can take this exam with proctoring only when all prerequisites have been successfully completed. Check your <a href=\"%(progress_page_url)s\">Progress</a>  page to see if prerequisite results have been updated. You can also take this exam now without proctoring, but you will not be eligible for credit.\n"
+"    You can take this exam with proctoring only when all prerequisites have "
+"been successfully completed.\n"
 "    "
 msgstr ""
-"\n"
-"    Unaweza kufanya mtihani huu kwa usimamizi endapo masharti yote yamekamilishwa kwa usahihi. Angalia kwenye <a href=\"%(progress_page_url)s\">kuona Maendeleo</a> kama masharti uliyokidhi yamesasishwa. Unaweza pia kufanya mtihani huu bila usimamizi, lakini hutastahiki kusoma kozi.\n"
-"    "
 
 #: templates/proctored_exam/proctoring_launch_callback.html:164
 msgid " Your Proctoring Session Has Started "
@@ -686,8 +831,8 @@ msgstr " Muda Wako wa kufanya Mtihani Umeanza"
 #: templates/proctored_exam/proctoring_launch_callback.html:165
 #, python-format
 msgid ""
-" From this point in time, you must follow the <a "
-"href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">online "
+" From this point in time, you must follow the <a href="
+"\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">online "
 "proctoring rules</a> to pass the proctoring review for your exam. "
 msgstr ""
 " Kuanzia muda huu wa sasa, lazima ufuate kanuni za usimamizi wa mtihani "
@@ -697,71 +842,150 @@ msgstr ""
 #: templates/proctored_exam/proctoring_launch_callback.html:168
 msgid ""
 "\n"
-"            Do not close this window before you finish your exam. if you close this window, your proctoring session ends, and you will not successfully complete the proctored exam.\n"
+"            Do not close this window before you finish your exam. if you "
+"close this window, your proctoring session ends, and you will not "
+"successfully complete the proctored exam.\n"
 "          "
 msgstr ""
 "\n"
-"            Usifunge dirisha hili kabla ya kumaliza kufanya mtihani wako. ukifunga dirisha hili, muda wako wa kufanya mtihani utaisha, na hutafanikiwa kukamilisha mtihani wako.\n"
+"            Usifunge dirisha hili kabla ya kumaliza kufanya mtihani wako. "
+"ukifunga dirisha hili, muda wako wa kufanya mtihani utaisha, na hutafanikiwa "
+"kukamilisha mtihani wako.\n"
 "          "
 
 #: templates/proctored_exam/proctoring_launch_callback.html:173
 #, python-format
 msgid ""
 "\n"
-"            Return to the %(platform_name)s course window to start your exam. When you have finished your exam and\n"
-"            have marked it as complete, you can close this window to end the proctoring session\n"
+"            Return to the %(platform_name)s course window to start your "
+"exam. When you have finished your exam and\n"
+"            have marked it as complete, you can close this window to end the "
+"proctoring session\n"
 "            and upload your proctoring session data for review.\n"
 "          "
 msgstr ""
 "\n"
-"            Rudi kwenye dirisha la kozi la%(platform_name)s kuanza kufanya mtihani wako. Ikiwa umemaliza kufanya mtihani wako na kuonesha kuwa umekamilisha, unaweza kufunga dirisha na kumaliza muda wa kufanya mtihani na kupakia mtihani wako ili uweze kupitiwa upya.\n"
+"            Rudi kwenye dirisha la kozi la%(platform_name)s kuanza kufanya "
+"mtihani wako. Ikiwa umemaliza kufanya mtihani wako na kuonesha kuwa "
+"umekamilisha, unaweza kufunga dirisha na kumaliza muda wa kufanya mtihani na "
+"kupakia mtihani wako ili uweze kupitiwa upya.\n"
 "          "
 
-#: templates/proctored_exam/proctoring_opt_out_button.html:8
-msgid ""
-"\n"
-"        I am not interested in academic credit.\n"
-"      "
-msgstr ""
-"\n"
-"        Sihitaji kulipia kozi.\n"
-"      "
-
 #: templates/proctored_exam/ready_to_start.html:5
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Try a proctored exam\n"
+#| "    "
 msgid ""
 "\n"
-"      Follow these instructions\n"
+"      Important\n"
 "    "
 msgstr ""
 "\n"
-"      Fuata maelekezo haya\n"
+"     Jaribu kufanya mtihani kwa usimamizi\n"
 "    "
 
 #: templates/proctored_exam/ready_to_start.html:10
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "        &#8226; When you start your exam you will have %(total_time)s to "
+#| "complete it. </br>\n"
+#| "        &#8226; You cannot stop the timer once you start. </br>\n"
+#| "        &#8226; If time expires before you finish your exam, your "
+#| "completed answers will be\n"
+#| "                submitted for review. </br>\n"
+#| "      "
+msgid ""
+"\n"
+"        &#8226; You have %(total_time)s to complete this exam. </br>\n"
+"        &#8226; Once you start the exam, you cannot stop the timer. </br>\n"
+"        &#8226; For all question types, you must click \"submit\" to "
+"complete your answer. </br>\n"
+"        &#8226; If time expires before you click \"End My Exam\", only your "
+"submitted answers will be graded.\n"
+"      "
+msgstr ""
+"\n"
+"        &#8226; Unapoanza kufanya mtihani wako utakuwa na %(total_time)s "
+"kuukamilisha. </br>\n"
+"        &#8226; Huwezi kusimamisha saa mara tu unaonza kufanya mtihani. </"
+"br>\n"
+"        &#8226; Kama muda utaisha kabla ya kumaliza mtihani wako, majibu ya "
+"maswali uliyofanya yatawasilihshwa ili kupitiwa upya. </br>\n"
+"      "
+
+#: templates/proctored_exam/ready_to_start.html:18
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        About Proctored Exams\n"
+#| "        "
+msgid ""
+"\n"
+"      Proctored Exam Rules\n"
+"    "
+msgstr ""
+"\n"
+"        Kuhusu Mitihani\n"
+"        "
+
+#: templates/proctored_exam/ready_to_start.html:23
+msgid ""
+"\n"
+"         You must adhere to the following rules while you complete this "
+"exam.\n"
+"         <strong>If you violate these rules, you will receive a score of 0 "
+"on the exam, and you will not be eligible for academic course credit.\n"
+"         </strong></br>\n"
+"      "
+msgstr ""
+
+#: templates/proctored_exam/ready_to_start.html:29
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "        About Proctored Exams\n"
+#| "        "
+msgid ""
+"\n"
+"          %(platform_name)s Rules for Online Proctored Exams\n"
+"      "
+msgstr ""
+"\n"
+"        Kuhusu Mitihani\n"
+"        "
+
+#: templates/proctored_exam/ready_to_start.html:36
+msgid ""
+"\n"
+"      Additional Exam Rules\n"
+"    "
+msgstr ""
+
+#: templates/proctored_exam/ready_to_start.html:41
 #, python-format
 msgid ""
 "\n"
-"        &#8226; When you start your exam you will have %(total_time)s to complete it. </br>\n"
-"        &#8226; You cannot stop the timer once you start. </br>\n"
-"        &#8226; If time expires before you finish your exam, your completed answers will be\n"
-"                submitted for review. </br>\n"
+"        The following additional rules apply to this exam. These rules take "
+"precedence over the Rules for Online Proctored Exams.</br> </br>\n"
+"\n"
+"        %(exam_review_policy)s </br>\n"
 "      "
 msgstr ""
-"\n"
-"        &#8226; Unapoanza kufanya mtihani wako utakuwa na %(total_time)s kuukamilisha. </br>\n"
-"        &#8226; Huwezi kusimamisha saa mara tu unaonza kufanya mtihani. </br>\n"
-"        &#8226; Kama muda utaisha kabla ya kumaliza mtihani wako, majibu ya maswali uliyofanya yatawasilihshwa ili kupitiwa upya. </br>\n"
-"      "
 
-#: templates/proctored_exam/ready_to_start.html:19
-msgid ""
-"\n"
-"          Start my exam\n"
-"        "
-msgstr ""
-"\n"
-"          Anza mtihani wangu\n"
-"        "
+#: templates/proctored_exam/ready_to_start.html:49
+#, fuzzy
+#| msgid "View my exam"
+msgid "Start my exam"
+msgstr "Angalia mtihani wangu"
+
+#: templates/proctored_exam/ready_to_start.html:50
+#, fuzzy
+#| msgid "Start Proctored Exam"
+msgid "Starting Exam"
+msgstr "Anza Kufanya Mtihani"
 
 #: templates/proctored_exam/ready_to_submit.html:4
 msgid ""
@@ -774,41 +998,44 @@ msgstr ""
 "    "
 
 #: templates/proctored_exam/ready_to_submit.html:9
-#: templates/timed_exam/ready_to_submit.html:9
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Make sure that you have selected \"Submit\" for each problem before "
+#| "you submit your exam.\n"
+#| "    "
 msgid ""
-"\n"
-"      Make sure that you have selected \"Submit\" for each problem before you submit your exam.\n"
-"    "
+"Make sure that you have selected \"Submit\" for each answer before you "
+"submit your exam."
 msgstr ""
 "\n"
-"      Hakikisha umechagua \"Wasilisha\" kwa kila swali kabla ya kuwasilisha.\n"
+"      Hakikisha umechagua \"Wasilisha\" kwa kila swali kabla ya "
+"kuwasilisha.\n"
 "    "
 
-#: templates/proctored_exam/ready_to_submit.html:14
+#: templates/proctored_exam/ready_to_submit.html:10
 msgid ""
-"\n"
-"      After you submit your exam, your responses are graded and your proctoring session is reviewed.\n"
-"      You might be eligible to earn academic credit for this course if you complete all required exams\n"
-"      as well as achieve a final grade that meets credit requirements for the course.\n"
-"    "
+"Once you click \"Yes, end my proctored exam\", the exam will be closed, and "
+"your proctoring session will be submitted for review."
 msgstr ""
-"\n"
-"      Baada ya kuwasilisha mtihani wako, majibu yako yanasahihishwa na kupewa daraja  na kipindi chako cha mtihani kinapitiwa upya.\n"
-"      Unaweza kustahiki kupata vipengele vya kozi hii kama unakamilisha mitihani yote inayohitajika\n"
-"      na pia kupata daraja la mwisho wa kozi ambalo linaendana na mahitaji ya kozi.\n"
-"    "
 
-#: templates/proctored_exam/ready_to_submit.html:21
-msgid ""
-"\n"
-"      Yes, end my proctored exam\n"
-"    "
+#: templates/proctored_exam/ready_to_submit.html:12
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Yes, end my proctored exam\n"
+#| "    "
+msgid "Yes, end my proctored exam"
 msgstr ""
 "\n"
 "      Ndiyo, maliza muda wa mtihani\n"
 "    "
 
-#: templates/proctored_exam/ready_to_submit.html:27
+#: templates/proctored_exam/ready_to_submit.html:13
+msgid "Ending Exam"
+msgstr ""
+
+#: templates/proctored_exam/ready_to_submit.html:18
 msgid ""
 "\n"
 "        No, I'd like to continue working\n"
@@ -819,26 +1046,50 @@ msgstr ""
 "      "
 
 #: templates/proctored_exam/rejected.html:4
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Your proctoring session was reviewed and did not pass requirements\n"
+#| "    "
 msgid ""
 "\n"
-"      Your proctoring session was reviewed and did not pass requirements\n"
+"      Your proctoring session was reviewed, but did not pass all "
+"requirements\n"
 "    "
 msgstr ""
 "\n"
-"      Muda wako wa kufanya mtihani umepitiwa upya na haukuidhi mahitaji ya lazima\n"
+"      Muda wako wa kufanya mtihani umepitiwa upya na haukuidhi mahitaji ya "
+"lazima\n"
 "    "
 
 #: templates/proctored_exam/rejected.html:10
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "      If you have questions about the status of your proctored exam "
+#| "results, contact %(platform_name)s Support.\n"
+#| "    "
 msgid ""
 "\n"
-"      You are no longer eligible for academic credit for this course, regardless of your final grade.\n"
-"      If you have questions about the status of your proctored exam results, contact %(platform_name)s Support.\n"
+"      If you have questions about the status of your proctoring session "
+"results, contact %(platform_name)s Support.\n"
 "    "
 msgstr ""
 "\n"
-"      Hustahiki tena kupata kozi hii, mbali ya daraja ulilopata mwishoni.\n"
-"      Kama una maswali kuhusu matokeo ya mtihani wako, wasiliana na %(platform_name)s Msaada.\n"
+"      Kama una maswali kuhusu hali ya matokeo ya mtihani wako, wasiliana na "
+"%(platform_name)s Msaada.\n"
+"    "
+
+#: templates/proctored_exam/rejected.html:18
+msgid ""
+"\n"
+"      If you have concerns about your proctoring session results, contact "
+"your course team.\n"
+"    "
+msgstr ""
+"\n"
+"      Kama una jambo lolote kuhusu matokeo ya mtihani uliofanya, wasiliana "
+"na wakufunzi wako wa kozi.\n"
 "    "
 
 #: templates/proctored_exam/submitted.html:4
@@ -852,147 +1103,102 @@ msgstr ""
 "    "
 
 #: templates/proctored_exam/submitted.html:9
+msgid "Your recorded data should now be uploaded for review."
+msgstr ""
+
+#: templates/proctored_exam/submitted.html:11
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      If the proctoring software window is still open, you can close it "
+#| "now. Confirm that you want to quit the application when you are "
+#| "prompted.\n"
+#| "    "
 msgid ""
-"\n"
-"      If the proctoring software window is still open, you can close it now. Confirm that you want to quit the application when you are prompted.\n"
-"    "
+"If the proctoring software window is still open, close it now and confirm "
+"that you want to quit the application."
 msgstr ""
 "\n"
-"      Kama ukurasa wa programu ya mitihani bado haujafungwa, unaweza kuufunga sasa. Thibitisha kwamba unataka kutoka kwenye programu wakati unapohitajika.\n"
+"      Kama ukurasa wa programu ya mitihani bado haujafungwa, unaweza "
+"kuufunga sasa. Thibitisha kwamba unataka kutoka kwenye programu wakati "
+"unapohitajika.\n"
 "    "
 
-#: templates/proctored_exam/submitted.html:14
+#: templates/proctored_exam/submitted.html:13
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      &#8226; After you quit the proctoring session, the recorded data is "
+#| "uploaded for review. </br>\n"
+#| "      &#8226; Proctoring results are usually available within 5 business "
+#| "days after you submit your exam.\n"
+#| "    "
 msgid ""
-"\n"
-"      &#8226; After you quit the proctoring session, the recorded data is uploaded for review. </br>\n"
-"      &#8226; Proctoring results are usually available within 5 business days after you submit your exam.\n"
-"    "
+"Proctoring results are usually available within 5 business days after you "
+"submit your exam."
 msgstr ""
 "\n"
-"      &#8226; Baada ya kipindi cha mtihani kumalizika, taarifa zilizorekodiwa zitapakiwa ili kupitiwa upya. </br>\n"
-"      &#8226; Matokeo ya mtihani kwa kawaida hutolewa ndani ya siku 5 za kazi baada ya kuwasilisha mtihani wako.\n"
+"      &#8226; Baada ya kipindi cha mtihani kumalizika, taarifa "
+"zilizorekodiwa zitapakiwa ili kupitiwa upya. </br>\n"
+"      &#8226; Matokeo ya mtihani kwa kawaida hutolewa ndani ya siku 5 za "
+"kazi baada ya kuwasilisha mtihani wako.\n"
 "    "
 
-#: templates/proctored_exam/submitted.html:23
+#: templates/proctored_exam/submitted.html:19
 #, python-format
 msgid ""
 "\n"
-"      If you have questions about the status of your proctored exam results, contact %(platform_name)s Support.\n"
+"      If you have questions about the status of your proctored exam results, "
+"contact %(platform_name)s Support.\n"
 "    "
 msgstr ""
 "\n"
-"      Kama una maswali kuhusu hali ya matokeo ya mtihani wako, wasiliana na %(platform_name)s Msaada.\n"
+"      Kama una maswali kuhusu hali ya matokeo ya mtihani wako, wasiliana na "
+"%(platform_name)s Msaada.\n"
 "    "
 
 #: templates/proctored_exam/verified.html:4
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Your proctoring session was reviewed and did not pass requirements\n"
+#| "    "
 msgid ""
 "\n"
-"      Your proctoring session was reviewed and passed all requirements\n"
+"      Your proctoring session was reviewed successfully. Go to your progress "
+"page to view your exam grade.\n"
 "    "
 msgstr ""
 "\n"
-"      Muda wako wa kufanya mtihani umepitiwa upya na umekidhi mahitaji yote ya lazima\n"
-"    "
-
-#: templates/proctored_exam/verified.html:10
-msgid ""
-"\n"
-"      You are eligible to purchase academic credit for this course if you complete all required exams\n"
-"      and also achieve a final grade that meets the credit requirements for the course.\n"
-"    "
-msgstr ""
-"\n"
-"      Unastahiki kupata vipengele vyote vya kozi hii ukikamilisha mitihani inayohitajika\n"
-"      na mwishowe kupata daraja linalokidhi mahitaji ya kozi.\n"
+"      Muda wako wa kufanya mtihani umepitiwa upya na haukuidhi mahitaji ya "
+"lazima\n"
 "    "
 
 #: templates/proctored_exam/visit_exam_content.html:5
 msgid ""
 "\n"
-"      To view your exam questions and responses, select <strong>View my exam</strong>. The exam's review status is shown in the left navigation pane.\n"
+"      To view your exam questions and responses, select <strong>View my "
+"exam</strong>. The exam's review status is shown in the left navigation "
+"pane.\n"
 "    "
 msgstr ""
 "\n"
-"      Kuangalia maswali na majibu ya mtihani wako, chagua <strong>Angalia mtihani wangu</strong>. Taswaira ya mtihani inajionesha kwenye upande wa kushoto wa ukurasa uliochapishwa.\n"
+"      Kuangalia maswali na majibu ya mtihani wako, chagua <strong>Angalia "
+"mtihani wangu</strong>. Taswaira ya mtihani inajionesha kwenye upande wa "
+"kushoto wa ukurasa uliochapishwa.\n"
 "    "
 
 #: templates/proctored_exam/visit_exam_content.html:11
 msgid "View my exam"
 msgstr "Angalia mtihani wangu"
 
-#: templates/proctored_exam/visit_exam_content.html:40
-msgid ""
-"\n"
-"      After the due date for this exam has passed, you will be able to review your answers on this page.\n"
-"    "
-msgstr ""
-"\n"
-"      Baada ya tarehe ya mwisho ya mtihani huu kupita, unaweza kupitia upya majibu yako kwenye ukurasa huu.\n"
-"    "
-
 #: templates/timed_exam/entrance.html:4
 #, python-format
 msgid ""
 "\n"
-"    %(exam_name)s is a Timed Exam (%(total_time)s)\n"
-"    "
+"        %(exam_name)s с ограничением по времени (%(total_time)s)\n"
+"        "
 msgstr ""
-"\n"
-"    %(exam_name)sni Mtihani wenye Muda Maalum(%(total_time)s)"
-
-#: templates/timed_exam/entrance.html:9
-msgid "This exam has a time limit associated with it."
-msgstr "Mtihani huu una muda wa ukomo wa kuufanya."
-
-#: templates/timed_exam/entrance.html:11
-msgid "To pass this exam, you must complete the problems in the time allowed."
-msgstr ""
-"Kufaulu mtihani huu, ni lazima umelize kufanya maswali ndani ya muda "
-"uliopewa."
-
-#: templates/timed_exam/entrance.html:13
-msgid "After you select "
-msgstr "Baada ya kuchagua"
-
-#: templates/timed_exam/entrance.html:15
-msgid "I am ready to start this timed exam,"
-msgstr "Nipo tayari kuanza kufanya mtihani huu,"
-
-#: templates/timed_exam/entrance.html:17
-msgid "you will have "
-msgstr "utalazimika "
-
-#: templates/timed_exam/entrance.html:17
-msgid " to complete and submit the exam."
-msgstr " kumaliza kufanya mtihani na kuuwasilisha."
-
-#: templates/timed_exam/entrance.html:21
-msgid ""
-"\n"
-"        I am ready to start this timed exam.\n"
-"      "
-msgstr ""
-"\n"
-"        Nipo tayari kuanza kufanya mtihani huu.\n"
-"      "
-
-#: templates/timed_exam/footer.html:3
-msgid "Can I request additional time to complete my exam?"
-msgstr "Je, naweza kuomba kuongezewa muda wa kufanya mtihani wangu?"
-
-#: templates/timed_exam/footer.html:4
-msgid ""
-"\n"
-"      If you have disabilities,\n"
-"      you might be eligible for an additional time allowance on timed exams.\n"
-"      Ask your course team for information about additional time allowances.\n"
-"    "
-msgstr ""
-"\n"
-"      Kama una ulemavu,\n"
-"      unaweza kuongezewa muda wa kufanya mitihani.\n"
-"      Pata maelezo kutoka kwa mkufunzi wako wa kozi kuhusu kuongezewa muda.\n"
-"    "
 
 #: templates/timed_exam/ready_to_submit.html:4
 msgid ""
@@ -1004,6 +1210,18 @@ msgstr ""
 "      Je, una uhakika unataka kuwasilisha mtihani?\n"
 "    "
 
+#: templates/timed_exam/ready_to_submit.html:9
+msgid ""
+"\n"
+"      Make sure that you have selected \"Submit\" for each problem before "
+"you submit your exam.\n"
+"    "
+msgstr ""
+"\n"
+"      Hakikisha umechagua \"Wasilisha\" kwa kila swali kabla ya "
+"kuwasilisha.\n"
+"    "
+
 #: templates/timed_exam/ready_to_submit.html:14
 msgid ""
 "\n"
@@ -1011,7 +1229,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"      Baada ya kuwasilisha mtihani wako, mtihani wako utasahihishwa na kupewa daraja.\n"
+"      Baada ya kuwasilisha mtihani wako, mtihani wako utasahihishwa na "
+"kupewa daraja.\n"
 "    "
 
 #: templates/timed_exam/ready_to_submit.html:19
@@ -1037,11 +1256,13 @@ msgstr ""
 #: templates/timed_exam/submitted.html:6
 msgid ""
 "\n"
-"        The time allotted for this exam has expired. Your exam has been submitted and any work you completed will be graded.\n"
+"        The time allotted for this exam has expired. Your exam has been "
+"submitted and any work you completed will be graded.\n"
 "      "
 msgstr ""
 "\n"
-"        Muda wa kufanya mtihani huu umeisha. Mtihani wako umeshawasilishwa na majibu yote uliyoandika yatasahihishwa na kuwekewa alama.\n"
+"        Muda wa kufanya mtihani huu umeisha. Mtihani wako umeshawasilishwa "
+"na majibu yote uliyoandika yatasahihishwa na kuwekewa alama.\n"
 "      "
 
 #: templates/timed_exam/submitted.html:10
@@ -1054,81 +1275,379 @@ msgstr ""
 "        Umewasilisha mtihani wako.\n"
 "      "
 
-#: templates/timed_exam/submitted.html:18
-#, python-format
+#: templates/timed_exam/submitted.html:19
 msgid ""
 "\n"
-"      Your grade for this timed exam will be immediately available on the <a href=\"%(progress_page_url)s\">Progress</a> page.\n"
-"    "
-msgstr ""
-"\n"
-"      Alama ulizopata kwenye mtihani huu zitapatikana sasa hivi kwenye <a href=\"%(progress_page_url)s\">Maendeleo</a> kurasa."
-
-#: templates/timed_exam/submitted.html:22
-msgid ""
-"\n"
-"        After the due date has passed, you can review the exam, but you cannot change your answers.\n"
+"        After the due date has passed, you can review the exam, but you "
+"cannot change your answers.\n"
 "      "
 msgstr ""
 "\n"
-"        Baada ya tarehe ya mwisho kupita, unaweza kuupitia upya mtihani, lakini huwezi kubadilisha majibu yako.\n"
+"        Baada ya tarehe ya mwisho kupita, unaweza kuupitia upya mtihani, "
+"lakini huwezi kubadilisha majibu yako.\n"
 "      "
 
-#: utils.py:76
+#: utils.py:81
 #, python-brace-format
 msgid "{num_of_hours} hour"
 msgstr "saa {num_of_hours} "
 
-#: utils.py:79
+#: utils.py:84
 #, python-brace-format
 msgid "{num_of_hours} hours"
 msgstr "saa {num_of_hours}"
 
-#: utils.py:87 utils.py:97
+#: utils.py:92 utils.py:102
 #, python-brace-format
 msgid "{num_of_minutes} minutes"
 msgstr "dakika {num_of_minutes}"
 
-#: utils.py:90
+#: utils.py:95
 #, python-brace-format
 msgid " and {num_of_minutes} minute"
 msgstr " na dakika {num_of_minutes} "
 
-#: utils.py:92
+#: utils.py:97
 #, python-brace-format
 msgid "{num_of_minutes} minute"
 msgstr "dakika{num_of_minutes}"
 
-#: utils.py:95
+#: utils.py:100
 #, python-brace-format
 msgid " and {num_of_minutes} minutes"
 msgstr " na dakika {num_of_minutes}"
 
-#: views.py:92
+#: views.py:113
 msgid "could not determine the course_id"
 msgstr "haikuweza kutambua utambulisho wa kozi"
 
-#: views.py:102
+#: views.py:122
 msgid "Must be a Staff User to Perform this request."
 msgstr "Lazima uwe Mtumiaji  Mfanyakazi ili uweze Kujibu ombi hili."
 
-#: views.py:334 views.py:546
+#: views.py:342 views.py:543
 #, python-brace-format
 msgid "you have {remaining_time} remaining"
 msgstr "umebakiwa na {remaining_time}"
 
-#: views.py:340
+#: views.py:348
 msgid "you have less than a minute remaining"
 msgstr "umebakiwa na chini ya dakika moja"
 
-#: views.py:536
+#: views.py:533
 msgid "timed"
 msgstr "kwa wakati maalum"
 
-#: views.py:537
+#: views.py:534
 msgid "practice"
 msgstr "mazoezi"
 
-#: views.py:537
+#: views.py:534
 msgid "proctored"
 msgstr "unasimamiwa"
+
+#: views.py:999
+#, python-brace-format
+msgid "No exams in course {course_id}."
+msgstr ""
+
+#: views.py:1019
+#, python-brace-format
+msgid "No instructor dashboard for {proctor_service}"
+msgstr ""
+
+#: views.py:1022
+#, python-brace-format
+msgid "No proctored exams in course {course_id}"
+msgstr ""
+
+#~ msgid "pending"
+#~ msgstr "Inayosubiria"
+
+#~ msgid "satisfactory"
+#~ msgstr "Inaridhisha"
+
+#~ msgid "unsatisfactory"
+#~ msgstr "Hairidhishi "
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "This email is to let you know that the status of your proctoring session "
+#~ "review for %(exam_name)s in\n"
+#~ "<a href=\"%(course_url)s\">%(course_name)s </a> is %(status)s. If you "
+#~ "have any questions about proctoring,\n"
+#~ "contact %(platform)s support at %(contact_email)s.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Dhamira ya ujumbe huu ni kukufahamisha hali halisi ya usimamiwaji wa "
+#~ "mtihani wako wa %(exam_name)s kwenye\n"
+#~ "<a href=\"%(course_url)s\">%(course_name)s </a> is %(status)s. Kama una "
+#~ "maswali yoyote kuhusu usimamizi wa mtihani, wasiliana na,\n"
+#~ "%(platform)sna kwa msaada kwenye %(contact_email)s.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "      To be eligible for course credit or for a MicroMasters credential, "
+#~ "you must pass the proctoring review for this exam.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Ili uweze kustahiki kusoma kozi au kupata cheti cha MicroMasters , "
+#~ "ni lazima ufaulu majaribio ya mtihani huu.\n"
+#~ "    "
+
+#~ msgid "Continue to my proctored exam. I want to be eligible for credit."
+#~ msgstr ""
+#~ "Endelea na mtihani wangu wa kusimamiwa. Nataka kustahiki kusoma kozi."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "      A technical error has occurred with your proctored exam. To resolve "
+#~ "this problem, contact\n"
+#~ "      <a href=\"mailto:%(tech_support_email)s\">technical support</a>. "
+#~ "All exam data, including answers\n"
+#~ "      for completed problems, has been lost. When the problem is resolved "
+#~ "you will need to restart\n"
+#~ "      the exam and complete all problems again.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Kosa la kiufundi limetokea kwenye mtihani wako. Kuondoa tatizo "
+#~ "hili, wasiliana na\n"
+#~ "      <a href=\"mailto:%(tech_support_email)s\">msaada wa kiufundi</a>. "
+#~ "Taarifa zote za mtihani, yakiwemo majibu ya maswali yaliyofanywa, "
+#~ "zimepotea. Tatizo likisharekebishwa utalazimika kuanza upya kufanya "
+#~ "mtihani na ukamilishe tena maswali yote.\n"
+#~ "    "
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "      View your credit eligibility status on your <a href="
+#~ "\"%(progress_page_url)s\">Progress</a> page.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Angalia hapa hali ya kustahiki kwako kusoma kozi <a href="
+#~ "\"%(progress_page_url)s\">Maendeleo</a> ukurasa.\n"
+#~ "    "
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "    You did not satisfy the requirements for taking this exam with "
+#~ "proctoring, and are not eligible for credit. See your <a href="
+#~ "\"%(progress_page_url)s\">Progress</a> page for a list of requirements "
+#~ "and your status for each.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "    Hukukidhi masharti ya kufanya mtihani huu, na hivyo huwezi kusoma "
+#~ "kozi not . Angalia kwenye ukurasa <a href=\"%(progress_page_url)s"
+#~ "\">Maendeleo</a> kuona orodha ya masharti na hali yako halisi kwa kila "
+#~ "kipengele.\n"
+#~ "    "
+
+#~ msgid ""
+#~ "\n"
+#~ "      Follow these steps to set up and start your proctored exam.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Fuata hatua hizi kufanya maandalizi na anza kufanya mtihani wako.\n"
+#~ "    "
+
+#~ msgid "Cannot Start Proctored Exam"
+#~ msgstr "Huwezi Kuanza Mtihani "
+
+#~ msgid "Doing so means that you are no longer eligible for academic credit."
+#~ msgstr "Kwa kufanya hivo inamaanisha kuwa hustahiki tena kusoma kozi."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "    You can take this exam with proctoring only when all prerequisites "
+#~ "have been successfully completed. Check your <a href="
+#~ "\"%(progress_page_url)s\">Progress</a>  page to see if prerequisite "
+#~ "results have been updated. You can also take this exam now without "
+#~ "proctoring, but you will not be eligible for credit.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "    Unaweza kufanya mtihani huu kwa usimamizi endapo masharti yote "
+#~ "yamekamilishwa kwa usahihi. Angalia kwenye <a href=\"%(progress_page_url)s"
+#~ "\">kuona Maendeleo</a> kama masharti uliyokidhi yamesasishwa. Unaweza pia "
+#~ "kufanya mtihani huu bila usimamizi, lakini hutastahiki kusoma kozi.\n"
+#~ "    "
+
+#~ msgid ""
+#~ "\n"
+#~ "        I am not interested in academic credit.\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "        Sihitaji kulipia kozi.\n"
+#~ "      "
+
+#~ msgid ""
+#~ "\n"
+#~ "      Follow these instructions\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Fuata maelekezo haya\n"
+#~ "    "
+
+#~ msgid ""
+#~ "\n"
+#~ "          Start my exam\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          Anza mtihani wangu\n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "      After you submit your exam, your responses are graded and your "
+#~ "proctoring session is reviewed.\n"
+#~ "      You might be eligible to earn academic credit for this course if "
+#~ "you complete all required exams\n"
+#~ "      as well as achieve a final grade that meets credit requirements for "
+#~ "the course.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Baada ya kuwasilisha mtihani wako, majibu yako yanasahihishwa na "
+#~ "kupewa daraja  na kipindi chako cha mtihani kinapitiwa upya.\n"
+#~ "      Unaweza kustahiki kupata vipengele vya kozi hii kama unakamilisha "
+#~ "mitihani yote inayohitajika\n"
+#~ "      na pia kupata daraja la mwisho wa kozi ambalo linaendana na "
+#~ "mahitaji ya kozi.\n"
+#~ "    "
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "      You are no longer eligible for academic credit for this course, "
+#~ "regardless of your final grade.\n"
+#~ "      If you have questions about the status of your proctored exam "
+#~ "results, contact %(platform_name)s Support.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Hustahiki tena kupata kozi hii, mbali ya daraja ulilopata "
+#~ "mwishoni.\n"
+#~ "      Kama una maswali kuhusu matokeo ya mtihani wako, wasiliana na "
+#~ "%(platform_name)s Msaada.\n"
+#~ "    "
+
+#~ msgid ""
+#~ "\n"
+#~ "      Your proctoring session was reviewed and passed all requirements\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Muda wako wa kufanya mtihani umepitiwa upya na umekidhi mahitaji "
+#~ "yote ya lazima\n"
+#~ "    "
+
+#~ msgid ""
+#~ "\n"
+#~ "      You are eligible to purchase academic credit for this course if you "
+#~ "complete all required exams\n"
+#~ "      and also achieve a final grade that meets the credit requirements "
+#~ "for the course.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Unastahiki kupata vipengele vyote vya kozi hii ukikamilisha "
+#~ "mitihani inayohitajika\n"
+#~ "      na mwishowe kupata daraja linalokidhi mahitaji ya kozi.\n"
+#~ "    "
+
+#~ msgid ""
+#~ "\n"
+#~ "      After the due date for this exam has passed, you will be able to "
+#~ "review your answers on this page.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Baada ya tarehe ya mwisho ya mtihani huu kupita, unaweza kupitia "
+#~ "upya majibu yako kwenye ukurasa huu.\n"
+#~ "    "
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "    %(exam_name)s is a Timed Exam (%(total_time)s)\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "    %(exam_name)sni Mtihani wenye Muda Maalum(%(total_time)s)"
+
+#~ msgid "This exam has a time limit associated with it."
+#~ msgstr "Mtihani huu una muda wa ukomo wa kuufanya."
+
+#~ msgid ""
+#~ "To pass this exam, you must complete the problems in the time allowed."
+#~ msgstr ""
+#~ "Kufaulu mtihani huu, ni lazima umelize kufanya maswali ndani ya muda "
+#~ "uliopewa."
+
+#~ msgid "After you select "
+#~ msgstr "Baada ya kuchagua"
+
+#~ msgid "I am ready to start this timed exam,"
+#~ msgstr "Nipo tayari kuanza kufanya mtihani huu,"
+
+#~ msgid "you will have "
+#~ msgstr "utalazimika "
+
+#~ msgid " to complete and submit the exam."
+#~ msgstr " kumaliza kufanya mtihani na kuuwasilisha."
+
+#~ msgid ""
+#~ "\n"
+#~ "        I am ready to start this timed exam.\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "        Nipo tayari kuanza kufanya mtihani huu.\n"
+#~ "      "
+
+#~ msgid "Can I request additional time to complete my exam?"
+#~ msgstr "Je, naweza kuomba kuongezewa muda wa kufanya mtihani wangu?"
+
+#~ msgid ""
+#~ "\n"
+#~ "      If you have disabilities,\n"
+#~ "      you might be eligible for an additional time allowance on timed "
+#~ "exams.\n"
+#~ "      Ask your course team for information about additional time "
+#~ "allowances.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Kama una ulemavu,\n"
+#~ "      unaweza kuongezewa muda wa kufanya mitihani.\n"
+#~ "      Pata maelezo kutoka kwa mkufunzi wako wa kozi kuhusu kuongezewa "
+#~ "muda.\n"
+#~ "    "
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "      Your grade for this timed exam will be immediately available on the "
+#~ "<a href=\"%(progress_page_url)s\">Progress</a> page.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Alama ulizopata kwenye mtihani huu zitapatikana sasa hivi kwenye <a "
+#~ "href=\"%(progress_page_url)s\">Maendeleo</a> kurasa."

@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
-"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-02-15 17:16-0500\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-06 02:58+0000\n"
 "PO-Revision-Date: 2018-03-14 17:16-0500\n"
 "Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
@@ -18,183 +18,243 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin.py
+#: admin.py:87
 msgid "internally reviewed"
 msgstr "ïntérnällý révïéwéd Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт,#"
 
-#: admin.py
+#: admin.py:96
 msgid "All Unreviewed"
 msgstr "Àll Ûnrévïéwéd Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт#"
 
-#: admin.py
+#: admin.py:97
 msgid "All Unreviewed Failures"
 msgstr "Àll Ûnrévïéwéd Fäïlürés Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σ#"
 
-#: admin.py
+#: admin.py:117
 msgid "active proctored exams"
 msgstr "äçtïvé pröçtöréd éxäms Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢#"
 
-#: admin.py
+#: admin.py:175
 msgid "courses with active proctored exams"
 msgstr ""
 "çöürsés wïth äçtïvé pröçtöréd éxäms Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
 
-#: admin.py
+#: admin.py:334
 msgid "Course Id"
 msgstr "Çöürsé Ìd Ⱡ'σяєм ιρѕυм ∂σł#"
 
-#: admin.py
+#: admin.py:371
 msgid "Created"
 msgstr "Çréätéd Ⱡ'σяєм ιρѕυм #"
 
-#: admin.py
+#: admin.py:372
 msgid "Download Software Clicked"
 msgstr "Döwnlöäd Söftwäré Çlïçkéd Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕ#"
 
-#: admin.py
+#: admin.py:373
 msgid "Ready To Start"
 msgstr "Réädý Tö Stärt Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт#"
 
-#: admin.py
+#: admin.py:374
 msgid "Started"
 msgstr "Stärtéd Ⱡ'σяєм ιρѕυм #"
 
-#: admin.py
+#: admin.py:375
 msgid "Ready To Submit"
 msgstr "Réädý Tö Süßmït Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт α#"
 
-#: admin.py
+#: admin.py:376
 msgid "Declined"
 msgstr "Déçlïnéd Ⱡ'σяєм ιρѕυм ∂#"
 
-#: admin.py
+#: admin.py:377
 msgid "Timed Out"
 msgstr "Tïméd Öüt Ⱡ'σяєм ιρѕυм ∂σł#"
 
-#: admin.py
+#: admin.py:378
 msgid "Submitted"
 msgstr "Süßmïttéd Ⱡ'σяєм ιρѕυм ∂σł#"
 
-#: admin.py
+#: admin.py:379
 msgid "Second Review Required"
 msgstr "Séçönd Révïéw Réqüïréd Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢#"
 
-#: admin.py
+#: admin.py:380
 msgid "Verified"
 msgstr "Vérïfïéd Ⱡ'σяєм ιρѕυм ∂#"
 
-#: admin.py
+#: admin.py:381
 msgid "Rejected"
 msgstr "Réjéçtéd Ⱡ'σяєм ιρѕυм ∂#"
 
-#: admin.py
+#: admin.py:382
 msgid "Error"
 msgstr "Érrör Ⱡ'σяєм ιρѕ#"
 
-#: api.py
+#: api.py:1005
 msgid "your course"
 msgstr "ýöür çöürsé Ⱡ'σяєм ιρѕυм ∂σłσя #"
 
-#: api.py
-#, python-brace-format
-msgid "Proctoring Session Results Update for {course_name} {exam_name}"
+#: api.py:1059
+#, fuzzy, python-brace-format
+#| msgid "Proctoring Session Results Update for {course_name} {exam_name}"
+msgid "Proctoring Results For {course_name} {exam_name}"
 msgstr ""
-"Pröçtörïng Séssïön Résülts Ûpdäté för {course_name} {exam_name} Ⱡ'σяєм ιρѕυм"
-" ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя #"
+"Pröçtörïng Séssïön Résülts Ûpdäté för {course_name} {exam_name} Ⱡ'σяєм ιρѕυм "
+"∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя #"
 
-#: api.py
+#: api.py:1068
+#, fuzzy, python-brace-format
+#| msgid "Proctoring Session Results Update for {course_name} {exam_name}"
+msgid "Proctoring Review In Progress For {course_name} {exam_name}"
+msgstr ""
+"Pröçtörïng Séssïön Résülts Ûpdäté för {course_name} {exam_name} Ⱡ'σяєм ιρѕυм "
+"∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя #"
+
+#: api.py:1093
+#, python-brace-format
+msgid "Proctored exam {exam_name} in {course_name} for user {username}"
+msgstr ""
+
+#: api.py:1430
 msgid "Taking As Proctored Exam"
 msgstr "Täkïng Às Pröçtöréd Éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢ση#"
 
-#: api.py
+#: api.py:1435
 msgid "Proctored Option Available"
 msgstr "Pröçtöréd Öptïön Àväïläßlé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕ#"
 
-#: api.py
+#: api.py:1440
 msgid "Taking As Open Exam"
 msgstr "Täkïng Às Öpén Éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт,#"
 
-#: api.py api.py
+#: api.py:1445 api.py:1450
 msgid "Pending Session Review"
 msgstr "Péndïng Séssïön Révïéw Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢#"
 
-#: api.py
+#: api.py:1455
 msgid "Passed Proctoring"
 msgstr "Pässéd Pröçtörïng Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмє#"
 
-#: api.py api.py
+#: api.py:1460 api.py:1465
 msgid "Failed Proctoring"
 msgstr "Fäïléd Pröçtörïng Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмє#"
 
-#: api.py
+#: api.py:1470
 msgid "Proctored Option No Longer Available"
 msgstr ""
-"Pröçtöréd Öptïön Nö Löngér Àväïläßlé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
-"¢σηѕє¢тєтυ#"
+"Pröçtöréd Öptïön Nö Löngér Àväïläßlé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
 
-#: api.py
+#: api.py:1478
 msgid "Ungraded Practice Exam"
 msgstr "Ûngrädéd Präçtïçé Éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢#"
 
-#: api.py
+#: api.py:1483
 msgid "Practice Exam Completed"
 msgstr "Präçtïçé Éxäm Çömplétéd Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σ#"
 
-#: api.py
+#: api.py:1488
 msgid "Practice Exam Failed"
 msgstr "Präçtïçé Éxäm Fäïléd Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, #"
 
-#: api.py
+#: api.py:1496
 msgid "Timed Exam"
 msgstr "Tïméd Éxäm Ⱡ'σяєм ιρѕυм ∂σłσ#"
 
-#: models.py
-msgid "pending"
-msgstr "péndïng Ⱡ'σяєм ιρѕυм #"
-
-#: models.py
-msgid "satisfactory"
-msgstr "sätïsfäçtörý Ⱡ'σяєм ιρѕυм ∂σłσя ѕ#"
-
-#: models.py
-msgid "unsatisfactory"
-msgstr "ünsätïsfäçtörý Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт#"
-
-#: models.py
+#: models.py:312
 msgid "Taking as Proctored"
 msgstr "Täkïng äs Pröçtöréd Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт,#"
 
-#: models.py
+#: models.py:316
 msgid "Is Sample Attempt"
 msgstr "Ìs Sämplé Àttémpt Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмє#"
 
-#: models.py
+#: models.py:482
 msgid "Additional Time (minutes)"
 msgstr "Àddïtïönäl Tïmé (mïnütés) Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕ#"
 
-#: models.py
+#: models.py:483
 msgid "Review Policy Exception"
 msgstr "Révïéw Pölïçý Éxçéptïön Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σ#"
 
-#: templates/emails/proctoring_attempt_status_email.html
+#: templates/emails/proctoring_attempt_satisfactory_email.html:4
+#: templates/emails/proctoring_attempt_submitted_email.html:4
+#: templates/emails/proctoring_attempt_unsatisfactory_email.html:4
 #, python-format
 msgid ""
 "\n"
-"\n"
-"This email is to let you know that the status of your proctoring session review for %(exam_name)s in\n"
-"<a href=\"%(course_url)s\">%(course_name)s </a> is %(status)s. If you have any questions about proctoring,\n"
-"contact %(platform)s support at %(contact_email)s.\n"
-"\n"
+"        Hi %(username)s,\n"
+"    "
 msgstr ""
-"\n"
-"\n"
-"Thïs émäïl ïs tö lét ýöü knöw thät thé stätüs öf ýöür pröçtörïng séssïön révïéw för %(exam_name)s ïn\n"
-"<a href=\"%(course_url)s\">%(course_name)s </a> ïs %(status)s. Ìf ýöü hävé äný qüéstïöns äßöüt pröçtörïng,\n"
-"çöntäçt %(platform)s süppört ät %(contact_email)s.\n"
-"\n"
-" Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση ρяσι∂єηт#\n"
 
-#: templates/practice_exam/entrance.html
+#: templates/emails/proctoring_attempt_satisfactory_email.html:9
+#, python-format
+msgid ""
+"\n"
+"        Your proctored exam \"%(exam_name)s\" in\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was reviewed and you\n"
+"        met all exam requirements.\n"
+"    "
+msgstr ""
+
+#: templates/emails/proctoring_attempt_satisfactory_email.html:16
+#: templates/emails/proctoring_attempt_unsatisfactory_email.html:20
+#, python-format
+msgid ""
+"\n"
+"        If you have any questions about your results, contact %(platform)s\n"
+"        support at\n"
+"        <a href=\"mailto:%(contact_email)s?Subject=%(support_email_subject)s"
+"\">\n"
+"            %(contact_email)s\n"
+"        </a>.\n"
+"    "
+msgstr ""
+
+#: templates/emails/proctoring_attempt_submitted_email.html:9
+#, python-format
+msgid ""
+"\n"
+"        Your proctored exam \"%(exam_name)s\" in\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was submitted\n"
+"        successfully and will now be reviewed to ensure all proctoring exam\n"
+"        rules were followed. You should receive an email with your updated "
+"exam\n"
+"        status within 5 business days.\n"
+"    "
+msgstr ""
+
+#: templates/emails/proctoring_attempt_submitted_email.html:18
+#, python-format
+msgid ""
+"\n"
+"        If you have any questions about proctoring, contact %(platform)s\n"
+"        support at\n"
+"        <a href=\"mailto:%(contact_email)s?Subject=%(support_email_subject)s"
+"\">\n"
+"            %(contact_email)s\n"
+"        </a>.\n"
+"    "
+msgstr ""
+
+#: templates/emails/proctoring_attempt_unsatisfactory_email.html:9
+#, python-format
+msgid ""
+"\n"
+"        Your proctored exam \"%(exam_name)s\" in\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was reviewed and the\n"
+"        team found one or more violations of the proctored exam rules. "
+"Examples\n"
+"        of behaviors that may result in a rules violation include browsing\n"
+"        the internet, using a phone, or getting help from another person. As "
+"a\n"
+"        result of the violation(s), you did not successfully meet the "
+"proctored\n"
+"        exam requirements.\n"
+"    "
+msgstr ""
+
+#: templates/practice_exam/entrance.html:4
 msgid ""
 "\n"
 "      Try a proctored exam\n"
@@ -204,33 +264,48 @@ msgstr ""
 "      Trý ä pröçtöréd éxäm\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
 
-#: templates/practice_exam/entrance.html
+#: templates/practice_exam/entrance.html:9
 msgid ""
 "\n"
-"      Get familiar with proctoring for real exams later in the course. This practice exam has no impact\n"
+"      Get familiar with proctoring for real exams later in the course. This "
+"practice exam has no impact\n"
 "      on your grade in the course.\n"
 "    "
 msgstr ""
 "\n"
-"      Gét fämïlïär wïth pröçtörïng för réäl éxäms lätér ïn thé çöürsé. Thïs präçtïçé éxäm häs nö ïmpäçt\n"
+"      Gét fämïlïär wïth pröçtörïng för réäl éxäms lätér ïn thé çöürsé. Thïs "
+"präçtïçé éxäm häs nö ïmpäçt\n"
 "      ön ýöür grädé ïn thé çöürsé.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂єѕєяυηт мσłłιт αηιм ι∂ є#"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт "
+"єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт "
+"¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂єѕєяυηт мσłłιт αηιм ι∂ є#"
 
-#: templates/practice_exam/entrance.html
+#: templates/practice_exam/entrance.html:15
 msgid "Continue to my practice exam"
 msgstr "Çöntïnüé tö mý präçtïçé éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢#"
 
-#: templates/practice_exam/entrance.html
+#: templates/practice_exam/entrance.html:18
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        You will be guided through steps to set up online proctoring "
+#| "software and to perform various checks.\n"
+#| "      "
 msgid ""
 "\n"
-"        You will be guided through steps to set up online proctoring software and to perform various checks.\n"
+"        You will be guided through steps to set up online proctoring "
+"software and verify your identity.\n"
 "      "
 msgstr ""
 "\n"
-"        Ýöü wïll ßé güïdéd thröügh stéps tö sét üp önlïné pröçtörïng söftwäré änd tö pérförm värïöüs çhéçks.\n"
+"        Ýöü wïll ßé güïdéd thröügh stéps tö sét üp önlïné pröçtörïng "
+"söftwäré änd tö pérförm värïöüs çhéçks.\n"
 "       Ⱡ'σяєм ιρѕυм ∂σ#"
 
-#: templates/practice_exam/error.html
+#: templates/practice_exam/error.html:4
 msgid ""
 "\n"
 "      There was a problem with your practice proctoring session\n"
@@ -240,33 +315,44 @@ msgstr ""
 "      Théré wäs ä prößlém wïth ýöür präçtïçé pröçtörïng séssïön\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя #"
 
-#: templates/practice_exam/error.html
+#: templates/practice_exam/error.html:10
 msgid ""
 "\n"
-"      Your practice proctoring results: <b class=\"failure\"> Unsatisfactory </b>\n"
+"      Your practice proctoring results: <b class=\"failure\"> Unsatisfactory "
+"</b>\n"
 "    "
 msgstr ""
 "\n"
-"      Ýöür präçtïçé pröçtörïng résülts: <b class=\"failure\"> Ûnsätïsfäçtörý </b>\n"
+"      Ýöür präçtïçé pröçtörïng résülts: <b class=\"failure\"> Ûnsätïsfäçtörý "
+"</b>\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя #"
 
-#: templates/practice_exam/error.html
+#: templates/practice_exam/error.html:16
 msgid ""
 "\n"
-"      Your proctoring session ended before you completed this practice exam.\n"
-"      You can retry this practice exam if you had problems setting up the online proctoring software.\n"
+"      Your proctoring session ended before you completed this practice "
+"exam.\n"
+"      You can retry this practice exam if you had problems setting up the "
+"online proctoring software.\n"
 "    "
 msgstr ""
 "\n"
-"      Ýöür pröçtörïng séssïön éndéd ßéföré ýöü çömplétéd thïs präçtïçé éxäm.\n"
-"      Ýöü çän rétrý thïs präçtïçé éxäm ïf ýöü häd prößléms séttïng üp thé önlïné pröçtörïng söftwäré.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση ρяσι∂єηт,#"
+"      Ýöür pröçtörïng séssïön éndéd ßéföré ýöü çömplétéd thïs präçtïçé "
+"éxäm.\n"
+"      Ýöü çän rétrý thïs präçtïçé éxäm ïf ýöü häd prößléms séttïng üp thé "
+"önlïné pröçtörïng söftwäré.\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт "
+"єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт "
+"¢υρι∂αтαт ηση ρяσι∂єηт,#"
 
-#: templates/practice_exam/error.html
+#: templates/practice_exam/error.html:25
 msgid "Try this practice exam again"
 msgstr "Trý thïs präçtïçé éxäm ägäïn Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢#"
 
-#: templates/practice_exam/submitted.html
+#: templates/practice_exam/submitted.html:4
 msgid ""
 "\n"
 "      You have submitted this practice proctored exam\n"
@@ -276,25 +362,40 @@ msgstr ""
 "      Ýöü hävé süßmïttéd thïs präçtïçé pröçtöréd éxäm\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/practice_exam/submitted.html
+#: templates/practice_exam/submitted.html:10
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Practice exams do not affect your grade or your credit "
+#| "eligibility.\n"
+#| "      You have completed this practice exam and can continue with your "
+#| "course work.\n"
+#| "    "
 msgid ""
 "\n"
-"      Practice exams do not affect your grade or your credit eligibility.\n"
-"      You have completed this practice exam and can continue with your course work.\n"
+"      Practice exams do not affect your grade.\n"
+"      You have completed this practice exam and can continue with your "
+"course work.\n"
 "    "
 msgstr ""
 "\n"
 "      Präçtïçé éxäms dö nöt äfféçt ýöür grädé ör ýöür çrédït élïgïßïlïtý.\n"
-"      Ýöü hävé çömplétéd thïs präçtïçé éxäm änd çän çöntïnüé wïth ýöür çöürsé wörk.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂є#"
+"      Ýöü hävé çömplétéd thïs präçtïçé éxäm änd çän çöntïnüé wïth ýöür "
+"çöürsé wörk.\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт "
+"єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт "
+"¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂є#"
 
-#: templates/practice_exam/submitted.html
+#: templates/practice_exam/submitted.html:18
 msgid "You can also retry this practice exam"
 msgstr ""
-"Ýöü çän älsö rétrý thïs präçtïçé éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
-"¢σηѕє¢тєтυ#"
+"Ýöü çän älsö rétrý thïs präçtïçé éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє"
+"¢тєтυ#"
 
-#: templates/proctored_exam/confirm-decline.html
+#: templates/proctored_exam/confirm-decline.html:5
 msgid ""
 "\n"
 "        Are you sure you want to take this exam without proctoring?\n"
@@ -304,64 +405,35 @@ msgstr ""
 "        Àré ýöü süré ýöü wänt tö täké thïs éxäm wïthöüt pröçtörïng?\n"
 "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
 
-#: templates/proctored_exam/confirm-decline.html
+#: templates/proctored_exam/confirm-decline.html:10
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        If you take this exam without proctoring, you will <strong> no "
+#| "longer be eligible for academic credit. </strong>\n"
+#| "      "
 msgid ""
 "\n"
-"        If you take this exam without proctoring, you will <strong> no longer be eligible for academic credit. </strong>\n"
+"        If you take this exam without proctoring, you will not be eligible "
+"for course credit or the MicroMasters credential if either applies to this "
+"course.\n"
 "      "
 msgstr ""
 "\n"
-"        Ìf ýöü täké thïs éxäm wïthöüt pröçtörïng, ýöü wïll <strong> nö löngér ßé élïgïßlé för äçädémïç çrédït. </strong>\n"
+"        Ìf ýöü täké thïs éxäm wïthöüt pröçtörïng, ýöü wïll <strong> nö "
+"löngér ßé élïgïßlé för äçädémïç çrédït. </strong>\n"
 "       Ⱡ'σяєм ιρѕυм ∂#"
 
-#: templates/proctored_exam/confirm-decline.html
+#: templates/proctored_exam/confirm-decline.html:16
 msgid "Continue Exam Without Proctoring"
 msgstr ""
 "Çöntïnüé Éxäm Wïthöüt Pröçtörïng Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
 
-#: templates/proctored_exam/confirm-decline.html
+#: templates/proctored_exam/confirm-decline.html:19
 msgid "Go Back"
 msgstr "Gö Bäçk Ⱡ'σяєм ιρѕυм #"
 
-#: templates/proctored_exam/entrance.html
-#: templates/proctored_exam/failed-prerequisites.html
-#: templates/proctored_exam/pending-prerequisites.html
-msgid ""
-"\n"
-"      This exam is proctored\n"
-"    "
-msgstr ""
-"\n"
-"      Thïs éxäm ïs pröçtöréd\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
-
-#: templates/proctored_exam/entrance.html
-msgid ""
-"\n"
-"      To be eligible for course credit or for a MicroMasters credential, you must pass the proctoring review for this exam.\n"
-"    "
-msgstr ""
-"\n"
-"      Tö ßé élïgïßlé för çöürsé çrédït ör för ä MïçröMästérs çrédéntïäl, ýöü müst päss thé pröçtörïng révïéw för thïs éxäm.\n"
-"     Ⱡ'σ#"
-
-#: templates/proctored_exam/entrance.html
-msgid "Continue to my proctored exam. I want to be eligible for credit."
-msgstr ""
-"Çöntïnüé tö mý pröçtöréd éxäm. Ì wänt tö ßé élïgïßlé för çrédït. Ⱡ'σяєм "
-"ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
-
-#: templates/proctored_exam/entrance.html
-msgid ""
-"\n"
-"        You will be guided through steps to set up online proctoring software and to perform various checks.</br>\n"
-"      "
-msgstr ""
-"\n"
-"        Ýöü wïll ßé güïdéd thröügh stéps tö sét üp önlïné pröçtörïng söftwäré änd tö pérförm värïöüs çhéçks.</br>\n"
-"       Ⱡ'σяєм ιρѕυм#"
-
-#: templates/proctored_exam/error.html
+#: templates/proctored_exam/error.html:4
 msgid ""
 "\n"
 "      Error with proctored exam\n"
@@ -371,48 +443,42 @@ msgstr ""
 "      Érrör wïth pröçtöréd éxäm\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
 
-#: templates/proctored_exam/error.html
+#: templates/proctored_exam/error.html:10
 #, python-format
 msgid ""
 "\n"
-"      A technical error has occurred with your proctored exam. To resolve this problem, contact\n"
-"      <a href=\"mailto:%(tech_support_email)s\">technical support</a>. All exam data, including answers\n"
-"      for completed problems, has been lost. When the problem is resolved you will need to restart\n"
-"      the exam and complete all problems again.\n"
+"      A technical error has occurred with your proctored exam. All\n"
+"      exam data, including completed answers, has been lost. To\n"
+"      resolve this error, please\n"
+"      contact <a href=\"mailto:%(tech_support_email)s\">technical\n"
+"      support</a>.\n"
 "    "
 msgstr ""
-"\n"
-"      À téçhnïçäl érrör häs öççürréd wïth ýöür pröçtöréd éxäm. Tö résölvé thïs prößlém, çöntäçt\n"
-"      <a href=\"mailto:%(tech_support_email)s\">téçhnïçäl süppört</a>. Àll éxäm dätä, ïnçlüdïng änswérs\n"
-"      för çömplétéd prößléms, häs ßéén löst. Whén thé prößlém ïs résölvéd ýöü wïll nééd tö réstärt\n"
-"      thé éxäm änd çömplété äll prößléms ägäïn.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєη#"
 
-#: templates/proctored_exam/error.html templates/proctored_exam/expired.html
-#: templates/proctored_exam/rejected.html
-#: templates/proctored_exam/submitted.html
-#: templates/proctored_exam/verified.html
-#, python-format
+#: templates/proctored_exam/error.html:19
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      If you have concerns about your proctoring session results, contact "
+#| "your course team.\n"
+#| "    "
 msgid ""
 "\n"
-"      View your credit eligibility status on your <a href=\"%(progress_page_url)s\">Progress</a> page.\n"
+"      Once the error is resolved, you will need to restart the exam\n"
+"      and answer all questions again. If you have concerns about your\n"
+"      proctoring session results, please contact your course team.\n"
 "    "
 msgstr ""
 "\n"
-"      Vïéw ýöür çrédït élïgïßïlïtý stätüs ön ýöür <a href=\"%(progress_page_url)s\">Prögréss</a> pägé.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
-
-#: templates/proctored_exam/error.html templates/proctored_exam/rejected.html
-msgid ""
-"\n"
-"      If you have concerns about your proctoring session results, contact your course team.\n"
-"    "
-msgstr ""
-"\n"
-"      Ìf ýöü hävé çönçérns äßöüt ýöür pröçtörïng séssïön résülts, çöntäçt ýöür çöürsé téäm.\n"
+"      Ìf ýöü hävé çönçérns äßöüt ýöür pröçtörïng séssïön résülts, çöntäçt "
+"ýöür çöürsé téäm.\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, #"
 
-#: templates/proctored_exam/expired.html templates/timed_exam/expired.html
+#: templates/proctored_exam/error_modal.html:7
+msgid "Close"
+msgstr "Çlösé Ⱡ'σяєм ιρѕ#"
+
+#: templates/proctored_exam/expired.html:4 templates/timed_exam/expired.html:4
 msgid ""
 "\n"
 "      The due date for this exam has passed\n"
@@ -422,28 +488,48 @@ msgstr ""
 "      Thé düé däté för thïs éxäm häs pässéd\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/proctored_exam/expired.html templates/timed_exam/expired.html
+#: templates/proctored_exam/expired.html:9 templates/timed_exam/expired.html:9
 msgid ""
 "\n"
-"      Because the due date has passed, you are no longer able to take this exam.\n"
+"      Because the due date has passed, you are no longer able to take this "
+"exam.\n"
 "    "
 msgstr ""
 "\n"
-"      Béçäüsé thé düé däté häs pässéd, ýöü äré nö löngér äßlé tö täké thïs éxäm.\n"
+"      Béçäüsé thé düé däté häs pässéd, ýöü äré nö löngér äßlé tö täké thïs "
+"éxäm.\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢#"
 
-#: templates/proctored_exam/failed-prerequisites.html
-#, python-format
+#: templates/proctored_exam/failed-prerequisites.html:4
+#: templates/proctored_exam/pending-prerequisites.html:4
 msgid ""
 "\n"
-"    You did not satisfy the requirements for taking this exam with proctoring, and are not eligible for credit. See your <a href=\"%(progress_page_url)s\">Progress</a> page for a list of requirements and your status for each.\n"
+"      This exam is proctored\n"
 "    "
 msgstr ""
 "\n"
-"    Ýöü dïd nöt sätïsfý thé réqüïréménts för täkïng thïs éxäm wïth pröçtörïng, änd äré nöt élïgïßlé för çrédït. Séé ýöür <a href=\"%(progress_page_url)s\">Prögréss</a> pägé för ä lïst öf réqüïréménts änd ýöür stätüs för éäçh.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢#"
+"      Thïs éxäm ïs pröçtöréd\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
 
-#: templates/proctored_exam/failed-prerequisites.html
+#: templates/proctored_exam/failed-prerequisites.html:9
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        Due to unsatisfied prerequisites, you can only take this exam "
+#| "without proctoring.\n"
+#| "      "
+msgid ""
+"\n"
+"    You did not satisfy the requirements for taking this exam with "
+"proctoring.\n"
+"    "
+msgstr ""
+"\n"
+"        Düé tö ünsätïsfïéd préréqüïsïtés, ýöü çän önlý täké thïs éxäm "
+"wïthöüt pröçtörïng.\n"
+"       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, #"
+
+#: templates/proctored_exam/failed-prerequisites.html:14
 msgid ""
 "\n"
 "    You did not satisfy the following prerequisites:\n"
@@ -453,28 +539,37 @@ msgstr ""
 "    Ýöü dïd nöt sätïsfý thé föllöwïng préréqüïsïtés:\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/proctored_exam/failed-prerequisites.html
+#: templates/proctored_exam/failed-prerequisites.html:32
 msgid ""
 "\n"
-"        Due to unsatisfied prerequisites, you can only take this exam without proctoring.\n"
+"        Due to unsatisfied prerequisites, you can only take this exam "
+"without proctoring.\n"
 "      "
 msgstr ""
 "\n"
-"        Düé tö ünsätïsfïéd préréqüïsïtés, ýöü çän önlý täké thïs éxäm wïthöüt pröçtörïng.\n"
+"        Düé tö ünsätïsfïéd préréqüïsïtés, ýöü çän önlý täké thïs éxäm "
+"wïthöüt pröçtörïng.\n"
 "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, #"
 
-#: templates/proctored_exam/failed-prerequisites.html
-#, python-format
+#: templates/proctored_exam/failed-prerequisites.html:40
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "      If you have questions about the status of your requirements for "
+#| "course credit, contact %(platform_name)s Support.\n"
+#| "    "
 msgid ""
 "\n"
-"      If you have questions about the status of your requirements for course credit, contact %(platform_name)s Support.\n"
+"      If you have questions about the status of your requirements, contact "
+"%(platform_name)s Support.\n"
 "    "
 msgstr ""
 "\n"
-"      Ìf ýöü hävé qüéstïöns äßöüt thé stätüs öf ýöür réqüïréménts för çöürsé çrédït, çöntäçt %(platform_name)s Süppört.\n"
+"      Ìf ýöü hävé qüéstïöns äßöüt thé stätüs öf ýöür réqüïréménts för çöürsé "
+"çrédït, çöntäçt %(platform_name)s Süppört.\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя #"
 
-#: templates/proctored_exam/footer.html
+#: templates/proctored_exam/footer.html:5
 msgid ""
 "\n"
 "        About Proctored Exams\n"
@@ -484,310 +579,486 @@ msgstr ""
 "        Àßöüt Pröçtöréd Éxäms\n"
 "         Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя#"
 
-#: templates/proctored_exam/id_verification.html
+#: templates/proctored_exam/id_verification.html:6
 msgid ""
 "\n"
-"                Complete your verification before starting the proctored exam.\n"
+"                Complete your verification before starting the proctored "
+"exam.\n"
 "            "
 msgstr ""
 "\n"
-"                Çömplété ýöür vérïfïçätïön ßéföré stärtïng thé pröçtöréd éxäm.\n"
+"                Çömplété ýöür vérïfïçätïön ßéföré stärtïng thé pröçtöréd "
+"éxäm.\n"
 "             Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢ση#"
 
-#: templates/proctored_exam/id_verification.html
+#: templates/proctored_exam/id_verification.html:11
 msgid ""
 "\n"
-"                You must successfully complete identity verification before you can start the proctored exam.\n"
+"                You must successfully complete identity verification before "
+"you can start the proctored exam.\n"
 "            "
 msgstr ""
 "\n"
-"                Ýöü müst süççéssfüllý çömplété ïdéntïtý vérïfïçätïön ßéföré ýöü çän stärt thé pröçtöréd éxäm.\n"
+"                Ýöü müst süççéssfüllý çömplété ïdéntïtý vérïfïçätïön ßéföré "
+"ýöü çän stärt thé pröçtöréd éxäm.\n"
 "             Ⱡ'σяєм ιρ#"
 
-#: templates/proctored_exam/id_verification.html
+#: templates/proctored_exam/id_verification.html:17
 msgid ""
 "\n"
-"                    Your verification is pending. Results should be available 2-3 days after you\n"
+"                    Your verification is pending. Results should be "
+"available 2-3 days after you\n"
 "                    submit your verification.\n"
 "                "
 msgstr ""
 "\n"
-"                    Ýöür vérïfïçätïön ïs péndïng. Résülts shöüld ßé äväïläßlé 2-3 däýs äftér ýöü\n"
+"                    Ýöür vérïfïçätïön ïs péndïng. Résülts shöüld ßé "
+"äväïläßlé 2-3 däýs äftér ýöü\n"
 "                    süßmït ýöür vérïfïçätïön.\n"
-"                 Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂єѕєяυ#"
+"                 Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, "
+"ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм "
+"α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ "
+"єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє "
+"νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт "
+"¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂єѕєяυ#"
 
-#: templates/proctored_exam/id_verification.html
+#: templates/proctored_exam/id_verification.html:24
 msgid ""
 "\n"
-"                    Your verification attempt failed. Please read our guidelines to make\n"
-"                    sure you understand the requirements for successfully completing verification,\n"
+"                    Your verification attempt failed. Please read our "
+"guidelines to make\n"
+"                    sure you understand the requirements for successfully "
+"completing verification,\n"
 "                    then try again.\n"
 "                "
 msgstr ""
 "\n"
-"                    Ýöür vérïfïçätïön ättémpt fäïléd. Pléäsé réäd öür güïdélïnés tö mäké\n"
-"                    süré ýöü ündérständ thé réqüïréménts för süççéssfüllý çömplétïng vérïfïçätïön,\n"
+"                    Ýöür vérïfïçätïön ättémpt fäïléd. Pléäsé réäd öür "
+"güïdélïnés tö mäké\n"
+"                    süré ýöü ündérständ thé réqüïréménts för süççéssfüllý "
+"çömplétïng vérïfïçätïön,\n"
 "                    thén trý ägäïn.\n"
-"                 Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт#"
+"                 Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, "
+"ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм "
+"α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ "
+"єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє "
+"νєłιт#"
 
-#: templates/proctored_exam/id_verification.html
+#: templates/proctored_exam/id_verification.html:32
 msgid "Retry Verification"
 msgstr "Rétrý Vérïfïçätïön Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт#"
 
-#: templates/proctored_exam/id_verification.html
+#: templates/proctored_exam/id_verification.html:37
 msgid ""
 "\n"
-"                    Your verification has expired. You must successfully complete a new identity verification\n"
+"                    Your verification has expired. You must successfully "
+"complete a new identity verification\n"
 "                    before you can start the proctored exam.\n"
 "                "
 msgstr ""
 "\n"
-"                    Ýöür vérïfïçätïön häs éxpïréd. Ýöü müst süççéssfüllý çömplété ä néw ïdéntïtý vérïfïçätïön\n"
+"                    Ýöür vérïfïçätïön häs éxpïréd. Ýöü müst süççéssfüllý "
+"çömplété ä néw ïdéntïtý vérïfïçätïön\n"
 "                    ßéföré ýöü çän stärt thé pröçtöréd éxäm.\n"
-"                 Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση ρяσ#"
+"                 Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, "
+"ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм "
+"α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ "
+"єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє "
+"νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт "
+"¢υρι∂αтαт ηση ρяσ#"
 
-#: templates/proctored_exam/id_verification.html
-#: templates/proctored_exam/id_verification.html
+#: templates/proctored_exam/id_verification.html:44
+#: templates/proctored_exam/id_verification.html:56
 msgid "Continue to Verification"
 msgstr "Çöntïnüé tö Vérïfïçätïön Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢ση#"
 
-#: templates/proctored_exam/id_verification.html
+#: templates/proctored_exam/id_verification.html:49
 msgid ""
 "\n"
-"                    Make sure you are on a computer with a webcam, and that you have valid photo identification\n"
-"                    such as a driver's license or passport, before you continue.\n"
+"                    Make sure you are on a computer with a webcam, and that "
+"you have valid photo identification\n"
+"                    such as a driver's license or passport, before you "
+"continue.\n"
 "                "
 msgstr ""
 "\n"
-"                    Mäké süré ýöü äré ön ä çömpütér wïth ä wéßçäm, änd thät ýöü hävé välïd phötö ïdéntïfïçätïön\n"
-"                    süçh äs ä drïvér's lïçénsé ör pässpört, ßéföré ýöü çöntïnüé.\n"
-"                 Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтє#"
+"                    Mäké süré ýöü äré ön ä çömpütér wïth ä wéßçäm, änd thät "
+"ýöü hävé välïd phötö ïdéntïfïçätïön\n"
+"                    süçh äs ä drïvér's lïçénsé ör pässpört, ßéföré ýöü "
+"çöntïnüé.\n"
+"                 Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, "
+"ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм "
+"α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ "
+"єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє "
+"νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтє#"
 
-#: templates/proctored_exam/instructions.html
+#: templates/proctored_exam/instructions.html:17
+#, python-format
 msgid ""
 "\n"
-"      Follow these steps to set up and start your proctored exam.\n"
-"    "
+"            If you have issues relating to proctoring, you can contact "
+"%(provider_name)s technical support by emailing "
+"%(provider_tech_support_email)s  or by calling "
+"%(provider_tech_support_phone)s.\n"
+"            "
 msgstr ""
-"\n"
-"      Föllöw thésé stéps tö sét üp änd stärt ýöür pröçtöréd éxäm.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя#"
 
-#: templates/proctored_exam/instructions.html
+#: templates/proctored_exam/instructions.html:22
+#: templates/proctored_exam/instructions.html:42
+msgid "Start System Check"
+msgstr "Stärt Sýstém Çhéçk Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт#"
+
+#: templates/proctored_exam/instructions.html:25
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        1. Copy this unique exam code. You will be prompted to paste this "
+#| "code later before you start the exam.\n"
+#| "      "
 msgid ""
 "\n"
-"        1. Copy this unique exam code. You will be prompted to paste this code later before you start the exam.\n"
-"      "
+"            1. Copy this unique exam code. You will be prompted to paste "
+"this code later before you start the exam.\n"
+"            "
 msgstr ""
 "\n"
-"        1. Çöpý thïs ünïqüé éxäm çödé. Ýöü wïll ßé prömptéd tö pästé thïs çödé lätér ßéföré ýöü stärt thé éxäm.\n"
+"        1. Çöpý thïs ünïqüé éxäm çödé. Ýöü wïll ßé prömptéd tö pästé thïs "
+"çödé lätér ßéföré ýöü stärt thé éxäm.\n"
 "       Ⱡ'σяєм ιρѕυм#"
 
-#: templates/proctored_exam/instructions.html
+#: templates/proctored_exam/instructions.html:33
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        Select the exam code, then copy it using Command+C (Mac) or "
+#| "Control+C (Windows).\n"
+#| "      "
 msgid ""
 "\n"
-"        Select the exam code, then copy it using Command+C (Mac) or Control+C (Windows).\n"
-"      "
+"            Select the exam code, then copy it using Command+C (Mac) or "
+"Control+C (Windows).\n"
+"            "
 msgstr ""
 "\n"
-"        Séléçt thé éxäm çödé, thén çöpý ït üsïng Çömmänd+Ç (Mäç) ör Çöntröl+Ç (Wïndöws).\n"
+"        Séléçt thé éxäm çödé, thén çöpý ït üsïng Çömmänd+Ç (Mäç) ör Çöntröl"
+"+Ç (Wïndöws).\n"
 "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, #"
 
-#: templates/proctored_exam/instructions.html
+#: templates/proctored_exam/instructions.html:38
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        2. Follow the link below to set up proctoring.\n"
+#| "      "
 msgid ""
 "\n"
-"        2. Follow the link below to set up proctoring.\n"
-"      "
+"            2. Click the button below to set up proctoring.\n"
+"            "
 msgstr ""
 "\n"
 "        2. Föllöw thé lïnk ßélöw tö sét üp pröçtörïng.\n"
 "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/proctored_exam/instructions.html
-msgid "Start System Check"
-msgstr "Stärt Sýstém Çhéçk Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт#"
-
-#: templates/proctored_exam/instructions.html
+#: templates/proctored_exam/instructions.html:44
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        A new window will open. You will run a system check before "
+#| "downloading the proctoring application.\n"
+#| "      "
 msgid ""
 "\n"
-"        A new window will open. You will run a system check before downloading the proctoring application.\n"
-"      "
+"            A new window will open. You will run a system check before "
+"downloading the proctoring application.\n"
+"            "
 msgstr ""
 "\n"
-"        À néw wïndöw wïll öpén. Ýöü wïll rün ä sýstém çhéçk ßéföré döwnlöädïng thé pröçtörïng äpplïçätïön.\n"
+"        À néw wïndöw wïll öpén. Ýöü wïll rün ä sýstém çhéçk ßéföré "
+"döwnlöädïng thé pröçtörïng äpplïçätïön.\n"
 "       Ⱡ'σяєм ιρѕυм ∂σł#"
 
-#: templates/proctored_exam/instructions.html
+#: templates/proctored_exam/instructions.html:49
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        You will be asked to verify your identity as part of the "
+#| "proctoring exam set up.\n"
+#| "        Make sure you are on a computer with a webcam, and that you have "
+#| "valid photo identification\n"
+#| "        such as a driver's license or passport, before you continue.\n"
+#| "      "
 msgid ""
 "\n"
-"        You will be asked to verify your identity as part of the proctoring exam set up.\n"
-"        Make sure you are on a computer with a webcam, and that you have valid photo identification\n"
-"        such as a driver's license or passport, before you continue.\n"
-"      "
+"            You will be asked to verify your identity as part of the "
+"proctoring exam set up.\n"
+"            Make sure you are on a computer with a webcam, and that you have "
+"valid photo identification\n"
+"            such as a driver's license or passport, before you continue.\n"
+"            "
 msgstr ""
 "\n"
-"        Ýöü wïll ßé äskéd tö vérïfý ýöür ïdéntïtý äs pärt öf thé pröçtörïng éxäm sét üp.\n"
-"        Mäké süré ýöü äré ön ä çömpütér wïth ä wéßçäm, änd thät ýöü hävé välïd phötö ïdéntïfïçätïön\n"
+"        Ýöü wïll ßé äskéd tö vérïfý ýöür ïdéntïtý äs pärt öf thé pröçtörïng "
+"éxäm sét üp.\n"
+"        Mäké süré ýöü äré ön ä çömpütér wïth ä wéßçäm, änd thät ýöü hävé "
+"välïd phötö ïdéntïfïçätïön\n"
 "        süçh äs ä drïvér's lïçénsé ör pässpört, ßéföré ýöü çöntïnüé.\n"
-"       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ι#"
+"       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ι#"
 
-#: templates/proctored_exam/instructions.html
+#: templates/proctored_exam/instructions.html:56
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "          3. When you have finished setting up proctoring, start the "
+#| "exam.\n"
+#| "        "
 msgid ""
 "\n"
-"          3. When you have finished setting up proctoring, start the exam.\n"
-"        "
+"            3. When you have finished setting up proctoring, start the "
+"exam.\n"
+"            "
 msgstr ""
 "\n"
 "          3. Whén ýöü hävé fïnïshéd séttïng üp pröçtörïng, stärt thé éxäm.\n"
 "         Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢т#"
 
-#: templates/proctored_exam/instructions.html
+#: templates/proctored_exam/instructions.html:62
 msgid "Start Proctored Exam"
 msgstr "Stärt Pröçtöréd Éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, #"
 
-#: templates/proctored_exam/instructions.html
-msgid "Close"
-msgstr "Çlösé Ⱡ'σяєм ιρѕ#"
-
-#: templates/proctored_exam/instructions.html
-msgid "Cannot Start Proctored Exam"
-msgstr "Çännöt Stärt Pröçtöréd Éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє#"
-
-#: templates/proctored_exam/instructions.html
-#: templates/proctored_exam/proctoring_opt_out_button.html
+#: templates/proctored_exam/instructions.html:73
+#: templates/proctored_exam/proctoring_opt_out_button.html:5
 msgid "Take this exam without proctoring."
 msgstr ""
 "Täké thïs éxäm wïthöüt pröçtörïng. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
 
-#: templates/proctored_exam/instructions.html
-msgid "Doing so means that you are no longer eligible for academic credit."
-msgstr ""
-"Döïng sö méäns thät ýöü äré nö löngér élïgïßlé för äçädémïç çrédït. Ⱡ'σяєм "
-"ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя #"
-
-#: templates/proctored_exam/pending-prerequisites.html
-#, python-format
+#: templates/proctored_exam/pending-prerequisites.html:9
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "    You have not completed the prerequisites for this exam. All "
+#| "requirements must be satisfied before you can take this proctored exam "
+#| "and be eligible for credit. See your <a href=\"%(progress_page_url)s"
+#| "\">Progress</a> page for a list of requirements in the order that they "
+#| "must be completed.\n"
+#| "    "
 msgid ""
 "\n"
-"    You have not completed the prerequisites for this exam. All requirements must be satisfied before you can take this proctored exam and be eligible for credit. See your <a href=\"%(progress_page_url)s\">Progress</a> page for a list of requirements in the order that they must be completed.\n"
+"    You have not completed the prerequisites for this exam. All requirements "
+"must be satisfied before you can take this proctored exam.\n"
 "    "
 msgstr ""
 "\n"
-"    Ýöü hävé nöt çömplétéd thé préréqüïsïtés för thïs éxäm. Àll réqüïréménts müst ßé sätïsfïéd ßéföré ýöü çän täké thïs pröçtöréd éxäm änd ßé élïgïßlé för çrédït. Séé ýöür <a href=\"%(progress_page_url)s\">Prögréss</a> pägé för ä lïst öf réqüïréménts ïn thé ördér thät théý müst ßé çömplétéd.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє#"
+"    Ýöü hävé nöt çömplétéd thé préréqüïsïtés för thïs éxäm. Àll réqüïréménts "
+"müst ßé sätïsfïéd ßéföré ýöü çän täké thïs pröçtöréd éxäm änd ßé élïgïßlé "
+"för çrédït. Séé ýöür <a href=\"%(progress_page_url)s\">Prögréss</a> pägé för "
+"ä lïst öf réqüïréménts ïn thé ördér thät théý müst ßé çömplétéd.\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє#"
 
-#: templates/proctored_exam/pending-prerequisites.html
+#: templates/proctored_exam/pending-prerequisites.html:14
 msgid ""
 "\n"
-"    The following prerequisites are in a <strong>pending</strong> state and must be successfully completed before you can proceed:\n"
+"    The following prerequisites are in a <strong>pending</strong> state and "
+"must be successfully completed before you can proceed:\n"
 "    "
 msgstr ""
 "\n"
-"    Thé föllöwïng préréqüïsïtés äré ïn ä <strong>péndïng</strong> stäté änd müst ßé süççéssfüllý çömplétéd ßéföré ýöü çän pröçééd:\n"
+"    Thé föllöwïng préréqüïsïtés äré ïn ä <strong>péndïng</strong> stäté änd "
+"müst ßé süççéssfüllý çömplétéd ßéföré ýöü çän pröçééd:\n"
 "     Ⱡ'σяєм #"
 
-#: templates/proctored_exam/pending-prerequisites.html
-#, python-format
+#: templates/proctored_exam/pending-prerequisites.html:30
 msgid ""
 "\n"
-"    You can take this exam with proctoring only when all prerequisites have been successfully completed. Check your <a href=\"%(progress_page_url)s\">Progress</a>  page to see if prerequisite results have been updated. You can also take this exam now without proctoring, but you will not be eligible for credit.\n"
+"    You can take this exam with proctoring only when all prerequisites have "
+"been successfully completed.\n"
 "    "
 msgstr ""
-"\n"
-"    Ýöü çän täké thïs éxäm wïth pröçtörïng önlý whén äll préréqüïsïtés hävé ßéén süççéssfüllý çömplétéd. Çhéçk ýöür <a href=\"%(progress_page_url)s\">Prögréss</a>  pägé tö séé ïf préréqüïsïté résülts hävé ßéén üpdätéd. Ýöü çän älsö täké thïs éxäm nöw wïthöüt pröçtörïng, ßüt ýöü wïll nöt ßé élïgïßlé för çrédït.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłι#"
 
-#: templates/proctored_exam/proctoring_launch_callback.html
+#: templates/proctored_exam/proctoring_launch_callback.html:164
 msgid " Your Proctoring Session Has Started "
 msgstr ""
-" Ýöür Pröçtörïng Séssïön Häs Stärtéd  Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
-"¢σηѕє¢тєтυ#"
+" Ýöür Pröçtörïng Séssïön Häs Stärtéd  Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє"
+"¢тєтυ#"
 
-#: templates/proctored_exam/proctoring_launch_callback.html
+#: templates/proctored_exam/proctoring_launch_callback.html:165
 #, python-format
 msgid ""
-" From this point in time, you must follow the <a "
-"href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">online "
+" From this point in time, you must follow the <a href="
+"\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">online "
 "proctoring rules</a> to pass the proctoring review for your exam. "
 msgstr ""
-" Fröm thïs pöïnt ïn tïmé, ýöü müst föllöw thé <a "
-"href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">önlïné "
+" Fröm thïs pöïnt ïn tïmé, ýöü müst föllöw thé <a href="
+"\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">önlïné "
 "pröçtörïng rülés</a> tö päss thé pröçtörïng révïéw för ýöür éxäm.  Ⱡ'σяєм "
 "ιρѕυ#"
 
-#: templates/proctored_exam/proctoring_launch_callback.html
+#: templates/proctored_exam/proctoring_launch_callback.html:168
 msgid ""
 "\n"
-"            Do not close this window before you finish your exam. if you close this window, your proctoring session ends, and you will not successfully complete the proctored exam.\n"
+"            Do not close this window before you finish your exam. if you "
+"close this window, your proctoring session ends, and you will not "
+"successfully complete the proctored exam.\n"
 "          "
 msgstr ""
 "\n"
-"            Dö nöt çlösé thïs wïndöw ßéföré ýöü fïnïsh ýöür éxäm. ïf ýöü çlösé thïs wïndöw, ýöür pröçtörïng séssïön énds, änd ýöü wïll nöt süççéssfüllý çömplété thé pröçtöréd éxäm.\n"
-"           Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ησ#"
+"            Dö nöt çlösé thïs wïndöw ßéföré ýöü fïnïsh ýöür éxäm. ïf ýöü "
+"çlösé thïs wïndöw, ýöür pröçtörïng séssïön énds, änd ýöü wïll nöt "
+"süççéssfüllý çömplété thé pröçtöréd éxäm.\n"
+"           Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт "
+"єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт "
+"¢υρι∂αтαт ησ#"
 
-#: templates/proctored_exam/proctoring_launch_callback.html
+#: templates/proctored_exam/proctoring_launch_callback.html:173
 #, python-format
 msgid ""
 "\n"
-"            Return to the %(platform_name)s course window to start your exam. When you have finished your exam and\n"
-"            have marked it as complete, you can close this window to end the proctoring session\n"
+"            Return to the %(platform_name)s course window to start your "
+"exam. When you have finished your exam and\n"
+"            have marked it as complete, you can close this window to end the "
+"proctoring session\n"
 "            and upload your proctoring session data for review.\n"
 "          "
 msgstr ""
 "\n"
-"            Rétürn tö thé %(platform_name)s çöürsé wïndöw tö stärt ýöür éxäm. Whén ýöü hävé fïnïshéd ýöür éxäm änd\n"
-"            hävé märkéd ït äs çömplété, ýöü çän çlösé thïs wïndöw tö énd thé pröçtörïng séssïön\n"
+"            Rétürn tö thé %(platform_name)s çöürsé wïndöw tö stärt ýöür "
+"éxäm. Whén ýöü hävé fïnïshéd ýöür éxäm änd\n"
+"            hävé märkéd ït äs çömplété, ýöü çän çlösé thïs wïndöw tö énd thé "
+"pröçtörïng séssïön\n"
 "            änd üplöäd ýöür pröçtörïng séssïön dätä för révïéw.\n"
-"           Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυα#"
+"           Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυα#"
 
-#: templates/proctored_exam/proctoring_opt_out_button.html
+#: templates/proctored_exam/ready_to_start.html:5
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Try a proctored exam\n"
+#| "    "
 msgid ""
 "\n"
-"        I am not interested in academic credit.\n"
-"      "
-msgstr ""
-"\n"
-"        Ì äm nöt ïntéréstéd ïn äçädémïç çrédït.\n"
-"       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
-
-#: templates/proctored_exam/ready_to_start.html
-msgid ""
-"\n"
-"      Follow these instructions\n"
+"      Important\n"
 "    "
 msgstr ""
 "\n"
-"      Föllöw thésé ïnstrüçtïöns\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
+"      Trý ä pröçtöréd éxäm\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
 
-#: templates/proctored_exam/ready_to_start.html
-#, python-format
+#: templates/proctored_exam/ready_to_start.html:10
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "        &#8226; When you start your exam you will have %(total_time)s to "
+#| "complete it. </br>\n"
+#| "        &#8226; You cannot stop the timer once you start. </br>\n"
+#| "        &#8226; If time expires before you finish your exam, your "
+#| "completed answers will be\n"
+#| "                submitted for review. </br>\n"
+#| "      "
 msgid ""
 "\n"
-"        &#8226; When you start your exam you will have %(total_time)s to complete it. </br>\n"
-"        &#8226; You cannot stop the timer once you start. </br>\n"
-"        &#8226; If time expires before you finish your exam, your completed answers will be\n"
-"                submitted for review. </br>\n"
+"        &#8226; You have %(total_time)s to complete this exam. </br>\n"
+"        &#8226; Once you start the exam, you cannot stop the timer. </br>\n"
+"        &#8226; For all question types, you must click \"submit\" to "
+"complete your answer. </br>\n"
+"        &#8226; If time expires before you click \"End My Exam\", only your "
+"submitted answers will be graded.\n"
 "      "
 msgstr ""
 "\n"
-"        &#8226; Whén ýöü stärt ýöür éxäm ýöü wïll hävé %(total_time)s tö çömplété ït. </br>\n"
+"        &#8226; Whén ýöü stärt ýöür éxäm ýöü wïll hävé %(total_time)s tö "
+"çömplété ït. </br>\n"
 "        &#8226; Ýöü çännöt stöp thé tïmér önçé ýöü stärt. </br>\n"
-"        &#8226; Ìf tïmé éxpïrés ßéföré ýöü fïnïsh ýöür éxäm, ýöür çömplétéd änswérs wïll ßé\n"
+"        &#8226; Ìf tïmé éxpïrés ßéföré ýöü fïnïsh ýöür éxäm, ýöür çömplétéd "
+"änswérs wïll ßé\n"
 "                süßmïttéd för révïéw. </br>\n"
-"       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂#"
+"       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂#"
 
-#: templates/proctored_exam/ready_to_start.html
+#: templates/proctored_exam/ready_to_start.html:18
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "        About Proctored Exams\n"
+#| "        "
 msgid ""
 "\n"
-"          Start my exam\n"
-"        "
+"      Proctored Exam Rules\n"
+"    "
 msgstr ""
 "\n"
-"          Stärt mý éxäm\n"
-"         Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
+"        Àßöüt Pröçtöréd Éxäms\n"
+"         Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя#"
 
-#: templates/proctored_exam/ready_to_submit.html
+#: templates/proctored_exam/ready_to_start.html:23
+msgid ""
+"\n"
+"         You must adhere to the following rules while you complete this "
+"exam.\n"
+"         <strong>If you violate these rules, you will receive a score of 0 "
+"on the exam, and you will not be eligible for academic course credit.\n"
+"         </strong></br>\n"
+"      "
+msgstr ""
+
+#: templates/proctored_exam/ready_to_start.html:29
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "        About Proctored Exams\n"
+#| "        "
+msgid ""
+"\n"
+"          %(platform_name)s Rules for Online Proctored Exams\n"
+"      "
+msgstr ""
+"\n"
+"        Àßöüt Pröçtöréd Éxäms\n"
+"         Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя#"
+
+#: templates/proctored_exam/ready_to_start.html:36
+msgid ""
+"\n"
+"      Additional Exam Rules\n"
+"    "
+msgstr ""
+
+#: templates/proctored_exam/ready_to_start.html:41
+#, python-format
+msgid ""
+"\n"
+"        The following additional rules apply to this exam. These rules take "
+"precedence over the Rules for Online Proctored Exams.</br> </br>\n"
+"\n"
+"        %(exam_review_policy)s </br>\n"
+"      "
+msgstr ""
+
+#: templates/proctored_exam/ready_to_start.html:49
+#, fuzzy
+#| msgid "View my exam"
+msgid "Start my exam"
+msgstr "Vïéw mý éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕ#"
+
+#: templates/proctored_exam/ready_to_start.html:50
+#, fuzzy
+#| msgid "Start Proctored Exam"
+msgid "Starting Exam"
+msgstr "Stärt Pröçtöréd Éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, #"
+
+#: templates/proctored_exam/ready_to_submit.html:4
 msgid ""
 "\n"
 "      Are you sure you want to end your proctored exam?\n"
@@ -797,42 +1068,45 @@ msgstr ""
 "      Àré ýöü süré ýöü wänt tö énd ýöür pröçtöréd éxäm?\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/proctored_exam/ready_to_submit.html
-#: templates/timed_exam/ready_to_submit.html
+#: templates/proctored_exam/ready_to_submit.html:9
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Make sure that you have selected \"Submit\" for each problem before "
+#| "you submit your exam.\n"
+#| "    "
 msgid ""
-"\n"
-"      Make sure that you have selected \"Submit\" for each problem before you submit your exam.\n"
-"    "
+"Make sure that you have selected \"Submit\" for each answer before you "
+"submit your exam."
 msgstr ""
 "\n"
-"      Mäké süré thät ýöü hävé séléçtéd \"Süßmït\" för éäçh prößlém ßéföré ýöü süßmït ýöür éxäm.\n"
+"      Mäké süré thät ýöü hävé séléçtéd \"Süßmït\" för éäçh prößlém ßéföré "
+"ýöü süßmït ýöür éxäm.\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт#"
 
-#: templates/proctored_exam/ready_to_submit.html
+#: templates/proctored_exam/ready_to_submit.html:10
 msgid ""
-"\n"
-"      After you submit your exam, your responses are graded and your proctoring session is reviewed.\n"
-"      You might be eligible to earn academic credit for this course if you complete all required exams\n"
-"      as well as achieve a final grade that meets credit requirements for the course.\n"
-"    "
+"Once you click \"Yes, end my proctored exam\", the exam will be closed, and "
+"your proctoring session will be submitted for review."
 msgstr ""
-"\n"
-"      Àftér ýöü süßmït ýöür éxäm, ýöür réspönsés äré grädéd änd ýöür pröçtörïng séssïön ïs révïéwéd.\n"
-"      Ýöü mïght ßé élïgïßlé tö éärn äçädémïç çrédït för thïs çöürsé ïf ýöü çömplété äll réqüïréd éxäms\n"
-"      äs wéll äs äçhïévé ä fïnäl grädé thät mééts çrédït réqüïréménts för thé çöürsé.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢#"
 
-#: templates/proctored_exam/ready_to_submit.html
-msgid ""
-"\n"
-"      Yes, end my proctored exam\n"
-"    "
+#: templates/proctored_exam/ready_to_submit.html:12
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Yes, end my proctored exam\n"
+#| "    "
+msgid "Yes, end my proctored exam"
 msgstr ""
 "\n"
 "      Ýés, énd mý pröçtöréd éxäm\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя#"
 
-#: templates/proctored_exam/ready_to_submit.html
+#: templates/proctored_exam/ready_to_submit.html:13
+msgid "Ending Exam"
+msgstr ""
+
+#: templates/proctored_exam/ready_to_submit.html:18
 msgid ""
 "\n"
 "        No, I'd like to continue working\n"
@@ -842,30 +1116,53 @@ msgstr ""
 "        Nö, Ì'd lïké tö çöntïnüé wörkïng\n"
 "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/proctored_exam/rejected.html
+#: templates/proctored_exam/rejected.html:4
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Your proctoring session was reviewed and did not pass requirements\n"
+#| "    "
 msgid ""
 "\n"
-"      Your proctoring session was reviewed and did not pass requirements\n"
+"      Your proctoring session was reviewed, but did not pass all "
+"requirements\n"
 "    "
 msgstr ""
 "\n"
 "      Ýöür pröçtörïng séssïön wäs révïéwéd änd dïd nöt päss réqüïréménts\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
 
-#: templates/proctored_exam/rejected.html
-#, python-format
+#: templates/proctored_exam/rejected.html:10
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "      If you have questions about the status of your proctored exam "
+#| "results, contact %(platform_name)s Support.\n"
+#| "    "
 msgid ""
 "\n"
-"      You are no longer eligible for academic credit for this course, regardless of your final grade.\n"
-"      If you have questions about the status of your proctored exam results, contact %(platform_name)s Support.\n"
+"      If you have questions about the status of your proctoring session "
+"results, contact %(platform_name)s Support.\n"
 "    "
 msgstr ""
 "\n"
-"      Ýöü äré nö löngér élïgïßlé för äçädémïç çrédït för thïs çöürsé, régärdléss öf ýöür fïnäl grädé.\n"
-"      Ìf ýöü hävé qüéstïöns äßöüt thé stätüs öf ýöür pröçtöréd éxäm résülts, çöntäçt %(platform_name)s Süppört.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт #"
+"      Ìf ýöü hävé qüéstïöns äßöüt thé stätüs öf ýöür pröçtöréd éxäm résülts, "
+"çöntäçt %(platform_name)s Süppört.\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αм#"
 
-#: templates/proctored_exam/submitted.html
+#: templates/proctored_exam/rejected.html:18
+msgid ""
+"\n"
+"      If you have concerns about your proctoring session results, contact "
+"your course team.\n"
+"    "
+msgstr ""
+"\n"
+"      Ìf ýöü hävé çönçérns äßöüt ýöür pröçtörïng séssïön résülts, çöntäçt "
+"ýöür çöürsé téäm.\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, #"
+
+#: templates/proctored_exam/submitted.html:4
 msgid ""
 "\n"
 "      You have submitted this proctored exam for review\n"
@@ -875,158 +1172,117 @@ msgstr ""
 "      Ýöü hävé süßmïttéd thïs pröçtöréd éxäm för révïéw\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/proctored_exam/submitted.html
+#: templates/proctored_exam/submitted.html:9
+msgid "Your recorded data should now be uploaded for review."
+msgstr ""
+
+#: templates/proctored_exam/submitted.html:11
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      If the proctoring software window is still open, you can close it "
+#| "now. Confirm that you want to quit the application when you are "
+#| "prompted.\n"
+#| "    "
 msgid ""
-"\n"
-"      If the proctoring software window is still open, you can close it now. Confirm that you want to quit the application when you are prompted.\n"
-"    "
+"If the proctoring software window is still open, close it now and confirm "
+"that you want to quit the application."
 msgstr ""
 "\n"
-"      Ìf thé pröçtörïng söftwäré wïndöw ïs stïll öpén, ýöü çän çlösé ït nöw. Çönfïrm thät ýöü wänt tö qüït thé äpplïçätïön whén ýöü äré prömptéd.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂єѕєяυηт мσłłιт α#"
+"      Ìf thé pröçtörïng söftwäré wïndöw ïs stïll öpén, ýöü çän çlösé ït nöw. "
+"Çönfïrm thät ýöü wänt tö qüït thé äpplïçätïön whén ýöü äré prömptéd.\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт "
+"єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт "
+"¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂єѕєяυηт мσłłιт α#"
 
-#: templates/proctored_exam/submitted.html
+#: templates/proctored_exam/submitted.html:13
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      &#8226; After you quit the proctoring session, the recorded data is "
+#| "uploaded for review. </br>\n"
+#| "      &#8226; Proctoring results are usually available within 5 business "
+#| "days after you submit your exam.\n"
+#| "    "
 msgid ""
-"\n"
-"      &#8226; After you quit the proctoring session, the recorded data is uploaded for review. </br>\n"
-"      &#8226; Proctoring results are usually available within 5 business days after you submit your exam.\n"
-"    "
+"Proctoring results are usually available within 5 business days after you "
+"submit your exam."
 msgstr ""
 "\n"
-"      &#8226; Àftér ýöü qüït thé pröçtörïng séssïön, thé réçördéd dätä ïs üplöädéd för révïéw. </br>\n"
-"      &#8226; Pröçtörïng résülts äré üsüällý äväïläßlé wïthïn 5 ßüsïnéss däýs äftér ýöü süßmït ýöür éxäm.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє#"
+"      &#8226; Àftér ýöü qüït thé pröçtörïng séssïön, thé réçördéd dätä ïs "
+"üplöädéd för révïéw. </br>\n"
+"      &#8226; Pröçtörïng résülts äré üsüällý äväïläßlé wïthïn 5 ßüsïnéss "
+"däýs äftér ýöü süßmït ýöür éxäm.\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт "
+"єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє#"
 
-#: templates/proctored_exam/submitted.html
+#: templates/proctored_exam/submitted.html:19
 #, python-format
 msgid ""
 "\n"
-"      If you have questions about the status of your proctored exam results, contact %(platform_name)s Support.\n"
+"      If you have questions about the status of your proctored exam results, "
+"contact %(platform_name)s Support.\n"
 "    "
 msgstr ""
 "\n"
-"      Ìf ýöü hävé qüéstïöns äßöüt thé stätüs öf ýöür pröçtöréd éxäm résülts, çöntäçt %(platform_name)s Süppört.\n"
+"      Ìf ýöü hävé qüéstïöns äßöüt thé stätüs öf ýöür pröçtöréd éxäm résülts, "
+"çöntäçt %(platform_name)s Süppört.\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αм#"
 
-#: templates/proctored_exam/verified.html
+#: templates/proctored_exam/verified.html:4
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "      Your proctoring session was reviewed and did not pass requirements\n"
+#| "    "
 msgid ""
 "\n"
-"      Your proctoring session was reviewed and passed all requirements\n"
+"      Your proctoring session was reviewed successfully. Go to your progress "
+"page to view your exam grade.\n"
 "    "
 msgstr ""
 "\n"
-"      Ýöür pröçtörïng séssïön wäs révïéwéd änd pässéd äll réqüïréménts\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
+"      Ýöür pröçtörïng séssïön wäs révïéwéd änd dïd nöt päss réqüïréménts\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
 
-#: templates/proctored_exam/verified.html
+#: templates/proctored_exam/visit_exam_content.html:5
 msgid ""
 "\n"
-"      You are eligible to purchase academic credit for this course if you complete all required exams\n"
-"      and also achieve a final grade that meets the credit requirements for the course.\n"
+"      To view your exam questions and responses, select <strong>View my "
+"exam</strong>. The exam's review status is shown in the left navigation "
+"pane.\n"
 "    "
 msgstr ""
 "\n"
-"      Ýöü äré élïgïßlé tö pürçhäsé äçädémïç çrédït för thïs çöürsé ïf ýöü çömplété äll réqüïréd éxäms\n"
-"      änd älsö äçhïévé ä fïnäl grädé thät mééts thé çrédït réqüïréménts för thé çöürsé.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αт#"
+"      Tö vïéw ýöür éxäm qüéstïöns änd réspönsés, séléçt <strong>Vïéw mý "
+"éxäm</strong>. Thé éxäm's révïéw stätüs ïs shöwn ïn thé léft nävïgätïön "
+"päné.\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм "
+"νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
+"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт "
+"єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт "
+"¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂єѕєяυηт мσłłιт αηιм ι∂ є#"
 
-#: templates/proctored_exam/visit_exam_content.html
-msgid ""
-"\n"
-"      To view your exam questions and responses, select <strong>View my exam</strong>. The exam's review status is shown in the left navigation pane.\n"
-"    "
-msgstr ""
-"\n"
-"      Tö vïéw ýöür éxäm qüéstïöns änd réspönsés, séléçt <strong>Vïéw mý éxäm</strong>. Thé éxäm's révïéw stätüs ïs shöwn ïn thé léft nävïgätïön päné.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂єѕєяυηт мσłłιт αηιм ι∂ є#"
-
-#: templates/proctored_exam/visit_exam_content.html
+#: templates/proctored_exam/visit_exam_content.html:11
 msgid "View my exam"
 msgstr "Vïéw mý éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕ#"
 
-#: templates/proctored_exam/visit_exam_content.html
-msgid ""
-"\n"
-"      After the due date for this exam has passed, you will be able to review your answers on this page.\n"
-"    "
-msgstr ""
-"\n"
-"      Àftér thé düé däté för thïs éxäm häs pässéd, ýöü wïll ßé äßlé tö révïéw ýöür änswérs ön thïs pägé.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕ#"
-
-#: templates/timed_exam/entrance.html
+#: templates/timed_exam/entrance.html:4
 #, python-format
 msgid ""
 "\n"
-"    %(exam_name)s is a Timed Exam (%(total_time)s)\n"
-"    "
+"        %(exam_name)s с ограничением по времени (%(total_time)s)\n"
+"        "
 msgstr ""
-"\n"
-"    %(exam_name)s ïs ä Tïméd Éxäm (%(total_time)s)\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
 
-#: templates/timed_exam/entrance.html
-msgid "This exam has a time limit associated with it."
-msgstr ""
-"Thïs éxäm häs ä tïmé lïmït ässöçïätéd wïth ït. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
-"¢σηѕє¢тєтυя α#"
-
-#: templates/timed_exam/entrance.html
-msgid "To pass this exam, you must complete the problems in the time allowed."
-msgstr ""
-"Tö päss thïs éxäm, ýöü müst çömplété thé prößléms ïn thé tïmé ällöwéd. "
-"Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя #"
-
-#: templates/timed_exam/entrance.html
-msgid "After you select "
-msgstr "Àftér ýöü séléçt  Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмє#"
-
-#: templates/timed_exam/entrance.html
-msgid "I am ready to start this timed exam,"
-msgstr ""
-"Ì äm réädý tö stärt thïs tïméd éxäm, Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
-"¢σηѕє¢тєтυ#"
-
-#: templates/timed_exam/entrance.html
-msgid "you will have "
-msgstr "ýöü wïll hävé  Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт#"
-
-#: templates/timed_exam/entrance.html
-msgid " to complete and submit the exam."
-msgstr ""
-" tö çömplété änd süßmït thé éxäm. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
-
-#: templates/timed_exam/entrance.html
-msgid ""
-"\n"
-"        I am ready to start this timed exam.\n"
-"      "
-msgstr ""
-"\n"
-"        Ì äm réädý tö stärt thïs tïméd éxäm.\n"
-"       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
-
-#: templates/timed_exam/footer.html
-msgid "Can I request additional time to complete my exam?"
-msgstr ""
-"Çän Ì réqüést äddïtïönäl tïmé tö çömplété mý éxäm? Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт "
-"αмєт, ¢σηѕє¢тєтυя α#"
-
-#: templates/timed_exam/footer.html
-msgid ""
-"\n"
-"      If you have disabilities,\n"
-"      you might be eligible for an additional time allowance on timed exams.\n"
-"      Ask your course team for information about additional time allowances.\n"
-"    "
-msgstr ""
-"\n"
-"      Ìf ýöü hävé dïsäßïlïtïés,\n"
-"      ýöü mïght ßé élïgïßlé för än äddïtïönäl tïmé ällöwänçé ön tïméd éxäms.\n"
-"      Àsk ýöür çöürsé téäm för ïnförmätïön äßöüt äddïtïönäl tïmé ällöwänçés.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση#"
-
-#: templates/timed_exam/ready_to_submit.html
+#: templates/timed_exam/ready_to_submit.html:4
 msgid ""
 "\n"
 "      Are you sure that you want to submit your timed exam?\n"
@@ -1036,7 +1292,19 @@ msgstr ""
 "      Àré ýöü süré thät ýöü wänt tö süßmït ýöür tïméd éxäm?\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/timed_exam/ready_to_submit.html
+#: templates/timed_exam/ready_to_submit.html:9
+msgid ""
+"\n"
+"      Make sure that you have selected \"Submit\" for each problem before "
+"you submit your exam.\n"
+"    "
+msgstr ""
+"\n"
+"      Mäké süré thät ýöü hävé séléçtéd \"Süßmït\" för éäçh prößlém ßéföré "
+"ýöü süßmït ýöür éxäm.\n"
+"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт#"
+
+#: templates/timed_exam/ready_to_submit.html:14
 msgid ""
 "\n"
 "      After you submit your exam, your exam will be graded.\n"
@@ -1046,7 +1314,7 @@ msgstr ""
 "      Àftér ýöü süßmït ýöür éxäm, ýöür éxäm wïll ßé grädéd.\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/timed_exam/ready_to_submit.html
+#: templates/timed_exam/ready_to_submit.html:19
 msgid ""
 "\n"
 "      Yes, submit my timed exam.\n"
@@ -1056,7 +1324,7 @@ msgstr ""
 "      Ýés, süßmït mý tïméd éxäm.\n"
 "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя#"
 
-#: templates/timed_exam/ready_to_submit.html
+#: templates/timed_exam/ready_to_submit.html:25
 msgid ""
 "\n"
 "        No, I want to continue working.\n"
@@ -1066,17 +1334,19 @@ msgstr ""
 "        Nö, Ì wänt tö çöntïnüé wörkïng.\n"
 "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/timed_exam/submitted.html
+#: templates/timed_exam/submitted.html:6
 msgid ""
 "\n"
-"        The time allotted for this exam has expired. Your exam has been submitted and any work you completed will be graded.\n"
+"        The time allotted for this exam has expired. Your exam has been "
+"submitted and any work you completed will be graded.\n"
 "      "
 msgstr ""
 "\n"
-"        Thé tïmé ällöttéd för thïs éxäm häs éxpïréd. Ýöür éxäm häs ßéén süßmïttéd änd äný wörk ýöü çömplétéd wïll ßé grädéd.\n"
+"        Thé tïmé ällöttéd för thïs éxäm häs éxpïréd. Ýöür éxäm häs ßéén "
+"süßmïttéd änd äný wörk ýöü çömplétéd wïll ßé grädéd.\n"
 "       #"
 
-#: templates/timed_exam/submitted.html
+#: templates/timed_exam/submitted.html:10
 msgid ""
 "\n"
 "        You have submitted your timed exam.\n"
@@ -1086,87 +1356,442 @@ msgstr ""
 "        Ýöü hävé süßmïttéd ýöür tïméd éxäm.\n"
 "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
-#: templates/timed_exam/submitted.html
-#, python-format
+#: templates/timed_exam/submitted.html:19
 msgid ""
 "\n"
-"      Your grade for this timed exam will be immediately available on the <a href=\"%(progress_page_url)s\">Progress</a> page.\n"
-"    "
-msgstr ""
-"\n"
-"      Ýöür grädé för thïs tïméd éxäm wïll ßé ïmmédïätélý äväïläßlé ön thé <a href=\"%(progress_page_url)s\">Prögréss</a> pägé.\n"
-"     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт#"
-
-#: templates/timed_exam/submitted.html
-msgid ""
-"\n"
-"        After the due date has passed, you can review the exam, but you cannot change your answers.\n"
+"        After the due date has passed, you can review the exam, but you "
+"cannot change your answers.\n"
 "      "
 msgstr ""
 "\n"
-"        Àftér thé düé däté häs pässéd, ýöü çän révïéw thé éxäm, ßüt ýöü çännöt çhängé ýöür änswérs.\n"
+"        Àftér thé düé däté häs pässéd, ýöü çän révïéw thé éxäm, ßüt ýöü "
+"çännöt çhängé ýöür änswérs.\n"
 "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт#"
 
-#: utils.py
+#: utils.py:81
 #, python-brace-format
 msgid "{num_of_hours} hour"
 msgstr "{num_of_hours} höür Ⱡ'σяєм ιρѕυм ∂#"
 
-#: utils.py
+#: utils.py:84
 #, python-brace-format
 msgid "{num_of_hours} hours"
 msgstr "{num_of_hours} höürs Ⱡ'σяєм ιρѕυм ∂σł#"
 
-#: utils.py utils.py
+#: utils.py:92 utils.py:102
 #, python-brace-format
 msgid "{num_of_minutes} minutes"
 msgstr "{num_of_minutes} mïnütés Ⱡ'σяєм ιρѕυм ∂σłσя #"
 
-#: utils.py
+#: utils.py:95
 #, python-brace-format
 msgid " and {num_of_minutes} minute"
 msgstr " änd {num_of_minutes} mïnüté Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт α#"
 
-#: utils.py
+#: utils.py:97
 #, python-brace-format
 msgid "{num_of_minutes} minute"
 msgstr "{num_of_minutes} mïnüté Ⱡ'σяєм ιρѕυм ∂σłσ#"
 
-#: utils.py
+#: utils.py:100
 #, python-brace-format
 msgid " and {num_of_minutes} minutes"
 msgstr " änd {num_of_minutes} mïnütés Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αм#"
 
-#: views.py
+#: views.py:113
 msgid "could not determine the course_id"
 msgstr ""
 "çöüld nöt détérmïné thé çöürsé_ïd Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
 
-#: views.py
+#: views.py:122
 msgid "Must be a Staff User to Perform this request."
 msgstr ""
 "Müst ßé ä Stäff Ûsér tö Pérförm thïs réqüést. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
 "¢σηѕє¢тєтυя #"
 
-#: views.py views.py
+#: views.py:342 views.py:543
 #, python-brace-format
 msgid "you have {remaining_time} remaining"
 msgstr "ýöü hävé {remaining_time} rémäïnïng Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢#"
 
-#: views.py
+#: views.py:348
 msgid "you have less than a minute remaining"
 msgstr ""
-"ýöü hävé léss thän ä mïnüté rémäïnïng Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
-"¢σηѕє¢тєтυ#"
+"ýöü hävé léss thän ä mïnüté rémäïnïng Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє"
+"¢тєтυ#"
 
-#: views.py
+#: views.py:533
 msgid "timed"
 msgstr "tïméd Ⱡ'σяєм ιρѕ#"
 
-#: views.py
+#: views.py:534
 msgid "practice"
 msgstr "präçtïçé Ⱡ'σяєм ιρѕυм ∂#"
 
-#: views.py
+#: views.py:534
 msgid "proctored"
 msgstr "pröçtöréd Ⱡ'σяєм ιρѕυм ∂σł#"
+
+#: views.py:999
+#, python-brace-format
+msgid "No exams in course {course_id}."
+msgstr ""
+
+#: views.py:1019
+#, python-brace-format
+msgid "No instructor dashboard for {proctor_service}"
+msgstr ""
+
+#: views.py:1022
+#, python-brace-format
+msgid "No proctored exams in course {course_id}"
+msgstr ""
+
+#~ msgid "pending"
+#~ msgstr "péndïng Ⱡ'σяєм ιρѕυм #"
+
+#~ msgid "satisfactory"
+#~ msgstr "sätïsfäçtörý Ⱡ'σяєм ιρѕυм ∂σłσя ѕ#"
+
+#~ msgid "unsatisfactory"
+#~ msgstr "ünsätïsfäçtörý Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт#"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "This email is to let you know that the status of your proctoring session "
+#~ "review for %(exam_name)s in\n"
+#~ "<a href=\"%(course_url)s\">%(course_name)s </a> is %(status)s. If you "
+#~ "have any questions about proctoring,\n"
+#~ "contact %(platform)s support at %(contact_email)s.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Thïs émäïl ïs tö lét ýöü knöw thät thé stätüs öf ýöür pröçtörïng séssïön "
+#~ "révïéw för %(exam_name)s ïn\n"
+#~ "<a href=\"%(course_url)s\">%(course_name)s </a> ïs %(status)s. Ìf ýöü "
+#~ "hävé äný qüéstïöns äßöüt pröçtörïng,\n"
+#~ "çöntäçt %(platform)s süppört ät %(contact_email)s.\n"
+#~ "\n"
+#~ " Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+#~ "єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ "
+#~ "мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ "
+#~ "єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη "
+#~ "νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя "
+#~ "ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση ρяσι∂єηт#\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "      To be eligible for course credit or for a MicroMasters credential, "
+#~ "you must pass the proctoring review for this exam.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Tö ßé élïgïßlé för çöürsé çrédït ör för ä MïçröMästérs çrédéntïäl, "
+#~ "ýöü müst päss thé pröçtörïng révïéw för thïs éxäm.\n"
+#~ "     Ⱡ'σ#"
+
+#~ msgid "Continue to my proctored exam. I want to be eligible for credit."
+#~ msgstr ""
+#~ "Çöntïnüé tö mý pröçtöréd éxäm. Ì wänt tö ßé élïgïßlé för çrédït. Ⱡ'σяєм "
+#~ "ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
+
+#~ msgid ""
+#~ "\n"
+#~ "        You will be guided through steps to set up online proctoring "
+#~ "software and to perform various checks.</br>\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "        Ýöü wïll ßé güïdéd thröügh stéps tö sét üp önlïné pröçtörïng "
+#~ "söftwäré änd tö pérförm värïöüs çhéçks.</br>\n"
+#~ "       Ⱡ'σяєм ιρѕυм#"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "      A technical error has occurred with your proctored exam. To resolve "
+#~ "this problem, contact\n"
+#~ "      <a href=\"mailto:%(tech_support_email)s\">technical support</a>. "
+#~ "All exam data, including answers\n"
+#~ "      for completed problems, has been lost. When the problem is resolved "
+#~ "you will need to restart\n"
+#~ "      the exam and complete all problems again.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      À téçhnïçäl érrör häs öççürréd wïth ýöür pröçtöréd éxäm. Tö résölvé "
+#~ "thïs prößlém, çöntäçt\n"
+#~ "      <a href=\"mailto:%(tech_support_email)s\">téçhnïçäl süppört</a>. "
+#~ "Àll éxäm dätä, ïnçlüdïng änswérs\n"
+#~ "      för çömplétéd prößléms, häs ßéén löst. Whén thé prößlém ïs résölvéd "
+#~ "ýöü wïll nééd tö réstärt\n"
+#~ "      thé éxäm änd çömplété äll prößléms ägäïn.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+#~ "єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ "
+#~ "мιηιм νєη#"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "      View your credit eligibility status on your <a href="
+#~ "\"%(progress_page_url)s\">Progress</a> page.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Vïéw ýöür çrédït élïgïßïlïtý stätüs ön ýöür <a href="
+#~ "\"%(progress_page_url)s\">Prögréss</a> pägé.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "    You did not satisfy the requirements for taking this exam with "
+#~ "proctoring, and are not eligible for credit. See your <a href="
+#~ "\"%(progress_page_url)s\">Progress</a> page for a list of requirements "
+#~ "and your status for each.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "    Ýöü dïd nöt sätïsfý thé réqüïréménts för täkïng thïs éxäm wïth "
+#~ "pröçtörïng, änd äré nöt élïgïßlé för çrédït. Séé ýöür <a href="
+#~ "\"%(progress_page_url)s\">Prögréss</a> pägé för ä lïst öf réqüïréménts "
+#~ "änd ýöür stätüs för éäçh.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+#~ "єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ "
+#~ "мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ "
+#~ "єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη "
+#~ "νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя "
+#~ "ѕιηт σ¢¢αє¢αт ¢#"
+
+#~ msgid ""
+#~ "\n"
+#~ "      Follow these steps to set up and start your proctored exam.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Föllöw thésé stéps tö sét üp änd stärt ýöür pröçtöréd éxäm.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя#"
+
+#~ msgid "Cannot Start Proctored Exam"
+#~ msgstr "Çännöt Stärt Pröçtöréd Éxäm Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє#"
+
+#~ msgid "Doing so means that you are no longer eligible for academic credit."
+#~ msgstr ""
+#~ "Döïng sö méäns thät ýöü äré nö löngér élïgïßlé för äçädémïç çrédït. "
+#~ "Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя #"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "    You can take this exam with proctoring only when all prerequisites "
+#~ "have been successfully completed. Check your <a href="
+#~ "\"%(progress_page_url)s\">Progress</a>  page to see if prerequisite "
+#~ "results have been updated. You can also take this exam now without "
+#~ "proctoring, but you will not be eligible for credit.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "    Ýöü çän täké thïs éxäm wïth pröçtörïng önlý whén äll préréqüïsïtés "
+#~ "hävé ßéén süççéssfüllý çömplétéd. Çhéçk ýöür <a href="
+#~ "\"%(progress_page_url)s\">Prögréss</a>  pägé tö séé ïf préréqüïsïté "
+#~ "résülts hävé ßéén üpdätéd. Ýöü çän älsö täké thïs éxäm nöw wïthöüt "
+#~ "pröçtörïng, ßüt ýöü wïll nöt ßé élïgïßlé för çrédït.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+#~ "єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ "
+#~ "мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłι#"
+
+#~ msgid ""
+#~ "\n"
+#~ "        I am not interested in academic credit.\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "        Ì äm nöt ïntéréstéd ïn äçädémïç çrédït.\n"
+#~ "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
+
+#~ msgid ""
+#~ "\n"
+#~ "      Follow these instructions\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Föllöw thésé ïnstrüçtïöns\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
+
+#~ msgid ""
+#~ "\n"
+#~ "          Start my exam\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          Stärt mý éxäm\n"
+#~ "         Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
+
+#~ msgid ""
+#~ "\n"
+#~ "      After you submit your exam, your responses are graded and your "
+#~ "proctoring session is reviewed.\n"
+#~ "      You might be eligible to earn academic credit for this course if "
+#~ "you complete all required exams\n"
+#~ "      as well as achieve a final grade that meets credit requirements for "
+#~ "the course.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Àftér ýöü süßmït ýöür éxäm, ýöür réspönsés äré grädéd änd ýöür "
+#~ "pröçtörïng séssïön ïs révïéwéd.\n"
+#~ "      Ýöü mïght ßé élïgïßlé tö éärn äçädémïç çrédït för thïs çöürsé ïf "
+#~ "ýöü çömplété äll réqüïréd éxäms\n"
+#~ "      äs wéll äs äçhïévé ä fïnäl grädé thät mééts çrédït réqüïréménts för "
+#~ "thé çöürsé.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+#~ "єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ "
+#~ "мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢#"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "      You are no longer eligible for academic credit for this course, "
+#~ "regardless of your final grade.\n"
+#~ "      If you have questions about the status of your proctored exam "
+#~ "results, contact %(platform_name)s Support.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Ýöü äré nö löngér élïgïßlé för äçädémïç çrédït för thïs çöürsé, "
+#~ "régärdléss öf ýöür fïnäl grädé.\n"
+#~ "      Ìf ýöü hävé qüéstïöns äßöüt thé stätüs öf ýöür pröçtöréd éxäm "
+#~ "résülts, çöntäçt %(platform_name)s Süppört.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+#~ "єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ "
+#~ "мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ "
+#~ "єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη "
+#~ "νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя "
+#~ "ѕιηт #"
+
+#~ msgid ""
+#~ "\n"
+#~ "      Your proctoring session was reviewed and passed all requirements\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Ýöür pröçtörïng séssïön wäs révïéwéd änd pässéd äll réqüïréménts\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
+
+#~ msgid ""
+#~ "\n"
+#~ "      You are eligible to purchase academic credit for this course if you "
+#~ "complete all required exams\n"
+#~ "      and also achieve a final grade that meets the credit requirements "
+#~ "for the course.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Ýöü äré élïgïßlé tö pürçhäsé äçädémïç çrédït för thïs çöürsé ïf ýöü "
+#~ "çömplété äll réqüïréd éxäms\n"
+#~ "      änd älsö äçhïévé ä fïnäl grädé thät mééts thé çrédït réqüïréménts "
+#~ "för thé çöürsé.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+#~ "єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ "
+#~ "мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ "
+#~ "єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη "
+#~ "νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя "
+#~ "ѕιηт σ¢¢αє¢αт ¢υρι∂αт#"
+
+#~ msgid ""
+#~ "\n"
+#~ "      After the due date for this exam has passed, you will be able to "
+#~ "review your answers on this page.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Àftér thé düé däté för thïs éxäm häs pässéd, ýöü wïll ßé äßlé tö "
+#~ "révïéw ýöür änswérs ön thïs pägé.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕ#"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "    %(exam_name)s is a Timed Exam (%(total_time)s)\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "    %(exam_name)s ïs ä Tïméd Éxäm (%(total_time)s)\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
+
+#~ msgid "This exam has a time limit associated with it."
+#~ msgstr ""
+#~ "Thïs éxäm häs ä tïmé lïmït ässöçïätéd wïth ït. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт "
+#~ "αмєт, ¢σηѕє¢тєтυя α#"
+
+#~ msgid ""
+#~ "To pass this exam, you must complete the problems in the time allowed."
+#~ msgstr ""
+#~ "Tö päss thïs éxäm, ýöü müst çömplété thé prößléms ïn thé tïmé ällöwéd. "
+#~ "Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя #"
+
+#~ msgid "After you select "
+#~ msgstr "Àftér ýöü séléçt  Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмє#"
+
+#~ msgid "I am ready to start this timed exam,"
+#~ msgstr ""
+#~ "Ì äm réädý tö stärt thïs tïméd éxäm, Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє"
+#~ "¢тєтυ#"
+
+#~ msgid "you will have "
+#~ msgstr "ýöü wïll hävé  Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт#"
+
+#~ msgid " to complete and submit the exam."
+#~ msgstr ""
+#~ " tö çömplété änd süßmït thé éxäm. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
+
+#~ msgid ""
+#~ "\n"
+#~ "        I am ready to start this timed exam.\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "        Ì äm réädý tö stärt thïs tïméd éxäm.\n"
+#~ "       Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
+
+#~ msgid "Can I request additional time to complete my exam?"
+#~ msgstr ""
+#~ "Çän Ì réqüést äddïtïönäl tïmé tö çömplété mý éxäm? Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт "
+#~ "αмєт, ¢σηѕє¢тєтυя α#"
+
+#~ msgid ""
+#~ "\n"
+#~ "      If you have disabilities,\n"
+#~ "      you might be eligible for an additional time allowance on timed "
+#~ "exams.\n"
+#~ "      Ask your course team for information about additional time "
+#~ "allowances.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Ìf ýöü hävé dïsäßïlïtïés,\n"
+#~ "      ýöü mïght ßé élïgïßlé för än äddïtïönäl tïmé ällöwänçé ön tïméd "
+#~ "éxäms.\n"
+#~ "      Àsk ýöür çöürsé téäm för ïnförmätïön äßöüt äddïtïönäl tïmé "
+#~ "ällöwänçés.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+#~ "єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ "
+#~ "мιηιм νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ "
+#~ "єχ єα ¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη "
+#~ "νσłυρтαтє νєłιт єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя "
+#~ "ѕιηт σ¢¢αє¢αт ¢υρι∂αтαт ηση#"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "      Your grade for this timed exam will be immediately available on the "
+#~ "<a href=\"%(progress_page_url)s\">Progress</a> page.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "      Ýöür grädé för thïs tïméd éxäm wïll ßé ïmmédïätélý äväïläßlé ön thé "
+#~ "<a href=\"%(progress_page_url)s\">Prögréss</a> pägé.\n"
+#~ "     Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт#"
