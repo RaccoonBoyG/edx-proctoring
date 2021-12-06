@@ -1124,12 +1124,8 @@ msgid ""
 "Proctoring results are usually available within 5 business days after you "
 "submit your exam."
 msgstr ""
-"\n"
-"      &#8226; После завершения наблюдения записанные данные загружаются для "
-"отсмотра. </br>\n"
-"      &#8226; Результаты отсмотра обычно появляются в течение 5 рабочих дней "
+"Результаты отсмотра обычно появляются в течение 5 рабочих дней "
 "после отправки ответов.\n"
-" "
 
 #: templates/proctored_exam/submitted.html:19
 #, python-format
