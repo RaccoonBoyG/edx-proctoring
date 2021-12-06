@@ -1121,11 +1121,10 @@ msgstr "Данные о вашем экзамене загружены для п
 #| "days after you submit your exam.\n"
 #| "    "
 msgid ""
-"Proctoring results are usually available within 5 business days after you "
-"submit your exam."
+"Proctoring results are usually available within 5 business days after you submit your exam."
+
 msgstr ""
-"Результаты отсмотра обычно появляются в течение 5 рабочих дней "
-"после отправки ответов.\n"
+"Результаты отсмотра обычно появляются в течение 5 рабочих дней после отправки ответов."
 
 #: templates/proctored_exam/submitted.html:19
 #, python-format
